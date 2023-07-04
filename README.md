@@ -7,3 +7,5 @@ https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.h
 
 Create a file called config.py at the base directory of this project with the following contents, pasting in your personal api key:
 OPENAI_API_KEY = "your_key_here"
+
+run the app with 'flask run'
