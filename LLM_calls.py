@@ -24,20 +24,24 @@ def standard_prompt_request(prior_guess_string):
     response = chain.run(prior_guess_string)
     return response
     
-secret_word = "apple"    # Static secret word for development, apple is something it consistently guesses. Try 'token' for something it seems to struggle with
-secret_word_set = set(secret_word.upper())
-latest_guess = ""
-attempts = 0
-MAX_ATTEMPTS = 10
-prior_guesses = []
+# secret word, apple is something it consistently guesses. Try 'token' for something it seems to struggle with
+def standard_prompt_game(secret_word):    
+    secret_word_set = set(secret_word.upper())
+    latest_guess = ""
+    attempts = 0
+    MAX_ATTEMPTS = 10
+    prior_guesses = []
+    result_string = ''
 
-while attempts < MAX_ATTEMPTS and latest_guess.upper() != secret_word.upper():
-    attempts += 1
-    latest_guess = standard_prompt_request(format_prior_guesses(prior_guesses))
-    correct_letters = len(secret_word_set.intersection(set(latest_guess.upper())))
-    print(f'{latest_guess}, {correct_letters}')
-    
-if latest_guess.upper() == secret_word.upper():
-    print('Secret word successfully guessed')
-else:
-    print('Model failed to guess the secret')
+    while attempts < MAX_ATTEMPTS and latest_guess.upper() != secret_word.upper():
+        attempts += 1
+        latest_guess = standard_prompt_request(format_prior_guesses(prior_guesses))
+        correct_letters = len(secret_word_set.intersection(set(latest_guess.upper())))
+        result_string += f'{latest_guess}, {correct_letters}\n'
+        
+    if latest_guess.upper() == secret_word.upper():
+        result_string += 'Secret word successfully guessed'
+    else:
+        result_string += 'Model failed to guess the secret'
+        
+    return result_string
