@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GuessGPT</title>
+</head>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='guessGPT.css') }}">
+<script src="{{ url_for('static', filename='guessGPT.js') }}"></script>
+<body>
+  <h1>GuessGPT</h1>
+  <p>Guess the secret word!</p>
+  
+  <div id="guess">
+    <input type="text" id="input" placeholder="Enter your guess">
+    <button onclick="checkGuess()">Check</button>
+  </div>
+  
+  <p>Have GPT-3 guess a secret!</p>
+  
+  <div id="user-secret">
+    <input type="text" id="secret-input" placeholder="Enter your secret">
+    <button onclick="standardPromptSecret()">Try It</button>
+  </div>
+  
+  <div id="result"></div>
+</body>
+</html>

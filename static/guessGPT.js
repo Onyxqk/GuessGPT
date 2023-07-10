@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 function getRandomWord() {
-    return fetch('wordDictionary.json')
+    return fetch('static/wordDictionary.json')
       .then(response => response.json())
       .then(wordDictionary => {
         var randomWord = Math.floor(Math.random() * wordDictionary.length);
@@ -37,6 +37,17 @@ function checkGuess() {
     document.getElementById("result").innerHTML = "Matching letters: " + matchingLetters + " the secret word is " + secretWord;
     guesses++;
   }
+  
+  document.getElementById("input").value = "";
+}
+
+async function standardPromptSecret() {
+  let input = document.getElementById("secret-input").value;
+  input = input.toLowerCase();
+  const response = await fetch("/standard_prompt"),
+        responseValue = await response.text();
+  document.getElementById("result").innerHTML = responseValue;
+
   
   document.getElementById("input").value = "";
 }
