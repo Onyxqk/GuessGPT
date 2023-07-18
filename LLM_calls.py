@@ -3,12 +3,17 @@ import os
 import config
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
+from langchain.chat_models import ChatOpenAI
+from langchain.schema import (
+    AIMessage,
+    HumanMessage,
+    SystemMessage
+)
 
 import prompts
 
 os.environ["OPENAI_API_KEY"] = config.OPENAI_API_KEY
 
-llm = OpenAI(max_tokens=1000)
 
 def format_prior_guesses(prior_guesses):
     if len(prior_guesses) == 0:
@@ -16,16 +21,20 @@ def format_prior_guesses(prior_guesses):
     prompt_string = ""
     for guess, correct_letters in prior_guesses:
         prompt_string += f'{guess}, {correct_letters}\n'
-        
-def standard_prompt_request(prior_guess_string):
+
+
+def standard_prompt_request(llm, prior_guess_string):
     prompt = PromptTemplate.from_template(prompts.standard_prompting)
 
     chain = LLMChain(llm=llm, prompt=prompt)
     response = chain.run(prior_guess_string)
     return response
-    
+
 # secret word, apple is something it consistently guesses. Try 'token' for something it seems to struggle with
-def standard_prompt_game(secret_word):    
+
+
+def standard_prompt_game(secret_word, model_name):
+    llm = OpenAI(max_tokens=1000, model=model_name)
     secret_word_set = set(secret_word.upper())
     latest_guess = ""
     attempts = 0
@@ -35,13 +44,21 @@ def standard_prompt_game(secret_word):
 
     while attempts < MAX_ATTEMPTS and latest_guess.upper() != secret_word.upper():
         attempts += 1
-        latest_guess = standard_prompt_request(format_prior_guesses(prior_guesses))
-        correct_letters = len(secret_word_set.intersection(set(latest_guess.upper())))
+        latest_guess = standard_prompt_request(llm,
+                                               format_prior_guesses(prior_guesses))
+        correct_letters = len(
+            secret_word_set.intersection(set(latest_guess.upper())))
         result_string += f'{latest_guess}, {correct_letters}\n'
-        
+
     if latest_guess.upper() == secret_word.upper():
-        result_string += 'Secret word successfully guessed'
+        result_string += '\nSecret word successfully guessed'
     else:
-        result_string += 'Model failed to guess the secret'
-        
+        result_string += '\nModel failed to guess the secret'
+
+    return result_string
+    
+def chat_completion_game(secret_word, model_name):
+    result_string = ''
+    chat = ChatOpenAI(max_tokens=1000, model=model_name)
+    result_string = chat.predict_messages([HumanMessage(content="I am thinking of a five letter word, try to guess it.")])
     return result_string
