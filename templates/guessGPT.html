@@ -7,20 +7,20 @@
 <script src="{{ url_for('static', filename='guessGPT.js') }}"></script>
 <body>
   <h1>GuessGPT</h1>
-  <p>Guess the secret word!</p>
-  
-  <div id="guess">
-    <input type="text" id="input" placeholder="Enter your guess">
-    <button onclick="checkGuess()">Check</button>
-  </div>
   
   <p>Have GPT-3 guess a secret!</p>
   
-  <div id="user-secret">
-    <input type="text" id="secret-input" placeholder="Enter your secret">
-    <button onclick="standardPromptSecret()">Try It</button>
-  </div>
+  <form method="post">
+    <input type="text" id="secret" name="secret" placeholder="Enter your secret"></input>
+    <select name="model">
+      <option value="{{model_options[0]}}" selected>{{model_options[0]}}</option>
+      {% for model_option in model_options[1:] %}
+        <option value="{{model_option}}">{{model_option}}</option>
+      {% endfor %}
+    </select>
+    <button type="submit">Submit</button>
+  </form>
   
-  <div id="result"></div>
+  <div id="result">{{result}}</div>
 </body>
 </html>
