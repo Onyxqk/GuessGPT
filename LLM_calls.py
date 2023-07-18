@@ -3,6 +3,12 @@ import os
 import config
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
+from langchain.chat_models import ChatOpenAI
+from langchain.schema import (
+    AIMessage,
+    HumanMessage,
+    SystemMessage
+)
 
 import prompts
 
@@ -52,5 +58,7 @@ def standard_prompt_game(secret_word, model_name):
     return result_string
     
 def chat_completion_game(secret_word, model_name):
-    result_string = 'not yet implemented'
+    result_string = ''
+    chat = ChatOpenAI(max_tokens=1000, model=model_name)
+    result_string = chat.predict_messages([HumanMessage(content="I am thinking of a five letter word, try to guess it.")])
     return result_string
