@@ -2,6 +2,7 @@ import { Component } from '@angular/core'
 import { OpenAI } from "langchain/llms/openai"
 import { LLMChain } from "langchain/chains"
 import { PromptTemplate } from "langchain/prompts"
+import * as FileSaver from 'file-saver';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,8 @@ export class AppComponent {
   modelOptions = ['gpt-3.5-turbo', 'text-davinci-003', 'text-davinci-002', 'text-davinci-001']
   result = ''
   apiKey = ''
+  randomWord= ''
+  private readonly wordDictionary = 'wordDictionary.json'
 
   async submitForm() {
     if (!this.secret) {
@@ -73,4 +76,18 @@ export class AppComponent {
 
     return resultString;
   }
+
+  async runGameForAllWords() {
+    const wordDictionary = this.wordDictionary
+    const csvContentArray: string[] = [];
+    for (const word of wordDictionary) {
+      const result = await this.standardPromptGame(word, this.selectedModel)
+      csvContentArray.push(`${word}, ${result}`)
+    }
+
+    const csvContent = 'data:text/csv;charset=utf-8,' + csvContentArray.join('\n')
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8' })
+    FileSaver.saveAs(blob, 'game_results.csv');
+  }
+
 }

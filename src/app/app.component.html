@@ -21,6 +21,8 @@
       </div> <br>
       <button type="submit">Submit</button>
     </form>
+    <br>
+    <button (click)="runGameForAllWords()">Run Game for All Words and Export to CSV</button>
 
     <div *ngIf="result">
       <p>{{ result }}</p>
