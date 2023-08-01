@@ -87,18 +87,18 @@ export class AppComponent {
       resultString += '\nModel failed to guess the secret'
     }
 
-    return resultString;
+    return resultString
   }
 
   async runGameForAllWords() {
     const wordDictionary = this.wordDictionary
     const csvContentArray: string[] = [];
-    for (const word in wordDictionary) {
+    for (const word of wordDictionary) {
       const result = await this.standardPromptGame(word, this.selectedModel)
-      csvContentArray.push(`${word}, ${result}`)
+      csvContentArray.push(`Secret: ${word}, Result: ${result}`)
     }
 
-    const csvContent = 'Secret, Guesses \n' + csvContentArray.join('\n')
+    const csvContent = csvContentArray.join('\n')
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8' })
     FileSaver.saveAs(blob, 'game_results.csv')
   }
