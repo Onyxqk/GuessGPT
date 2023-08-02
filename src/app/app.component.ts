@@ -78,6 +78,7 @@ export class AppComponent {
       attempts += 1
       latestGuess = await (this.standardPromptRequest(llm, this.formatPriorGuesses(priorGuesses)))
       const correctLetters = [...secretWordSet].filter(letter => new Set(latestGuess.toUpperCase()).has(letter)).length
+      priorGuesses.push([latestGuess, correctLetters])
       resultString += `${latestGuess}, ${correctLetters}\n`
     }
 
