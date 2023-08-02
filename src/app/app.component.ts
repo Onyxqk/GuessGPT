@@ -83,7 +83,7 @@ export class AppComponent {
       
       // reverse the response, use regex to find the last word, and flip that word back around
       let reversedResponse = modelResponse.split('').reverse().join('')
-      let lastWord = reversedResponse.match(/\w+/)
+      let lastWord = reversedResponse.match(/[a-zA-Z]+/)
       let guessWord = lastWord ? lastWord[0] : reversedResponse
       latestGuess = guessWord.split('').reverse().join('')
       
@@ -95,6 +95,7 @@ export class AppComponent {
       
       priorGuesses.push([latestGuess, correctLetters])
       resultString += `${latestGuess}, ${correctLetters}\n`
+      
       highestLetterMatch = correctLetters > highestLetterMatch ? correctLetters : highestLetterMatch
     }
 
