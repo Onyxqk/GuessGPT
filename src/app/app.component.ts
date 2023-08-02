@@ -65,11 +65,11 @@ export class AppComponent {
     return response
   }
 
-  async standardPromptGame(secretWord: string, modelName: string): Promise<string> {
+  async standardPromptGame(secretWord: string, modelName: string, gameStats: Record<string,any> = {}): Promise<string> {
     const llm = new OpenAI({openAIApiKey: this.apiKey, modelName })
     const secretWordSet = new Set(secretWord.toUpperCase())
     let latestGuess = ""
-    let attempts = 0
+    let attempts = 0, highestLetterMatch = 0
     const MAX_ATTEMPTS = 10
     const priorGuesses: [string, number][] = []
     let resultString = ''
@@ -80,6 +80,7 @@ export class AppComponent {
       const correctLetters = [...secretWordSet].filter(letter => new Set(latestGuess.toUpperCase()).has(letter)).length
       priorGuesses.push([latestGuess, correctLetters])
       resultString += `${latestGuess}, ${correctLetters}\n`
+      highestLetterMatch = correctLetters > highestLetterMatch ? correctLetters : highestLetterMatch
     }
 
     if (latestGuess.toUpperCase() === secretWord.toUpperCase()) {
@@ -87,21 +88,26 @@ export class AppComponent {
     } else {
       resultString += '\nModel failed to guess the secret'
     }
+    
+    gameStats['resultString'] = resultString
+    gameStats['attempts'] = attempts
+    gameStats['highestLetterMatch'] = highestLetterMatch
 
     return resultString
   }
 
   async runGameForAllWords() {
     const wordDictionary = this.wordDictionary
-    const csvContentArray: string[] = [];
+    const gameStatsMap: Record<string,any> = {}
     for (const word of wordDictionary) {
-      const result = await this.standardPromptGame(word, this.selectedModel)
-      csvContentArray.push(`Secret: ${word}, Result: ${result}`)
+      let gameStats: Record<string,any> = {}
+      const result = await this.standardPromptGame(word, this.selectedModel, gameStats)
+      gameStatsMap[word] = gameStats
     }
 
-    const csvContent = csvContentArray.join('\n')
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8' })
-    FileSaver.saveAs(blob, 'game_results.csv')
+    const jsonContent = JSON.stringify(gameStatsMap)
+    const blob = new Blob([jsonContent], { type: 'text/csv;charset=utf-8' })
+    FileSaver.saveAs(blob, 'game_results.json')
   }
 
 }
