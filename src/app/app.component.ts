@@ -47,7 +47,7 @@ export class AppComponent {
     }
     let promptString = ""
     for (const [guess, correctLetters] of priorGuesses) {
-      promptString += `${guess}, ${correctLetters}\n`
+      promptString += `You guessed ${guess}, which had ${correctLetters} letters in common with the secret.\n`
     }
     return promptString
   }
@@ -69,15 +69,30 @@ export class AppComponent {
     const llm = new OpenAI({openAIApiKey: this.apiKey, modelName })
     const secretWordSet = new Set(secretWord.toUpperCase())
     let latestGuess = ""
-    let attempts = 0, highestLetterMatch = 0
+    let attempts = 0, highestLetterMatch = 0, repeatedWordCount = 0
     const MAX_ATTEMPTS = 10
     const priorGuesses: [string, number][] = []
+    const responseTexts: string[] = []
     let resultString = ''
 
     while (attempts < MAX_ATTEMPTS && latestGuess.toUpperCase() !== secretWord.toUpperCase()) {
       attempts += 1
-      latestGuess = await (this.standardPromptRequest(llm, this.formatPriorGuesses(priorGuesses)))
+      
+      let modelResponse = await (this.standardPromptRequest(llm, this.formatPriorGuesses(priorGuesses)))
+      responseTexts.push(modelResponse)
+      
+      // reverse the response, use regex to find the last word, and flip that word back around
+      let reversedResponse = modelResponse.split('').reverse().join('')
+      let lastWord = reversedResponse.match(/\w+/)
+      let guessWord = lastWord ? lastWord[0] : reversedResponse
+      latestGuess = guessWord.split('').reverse().join('')
+      
       const correctLetters = [...secretWordSet].filter(letter => new Set(latestGuess.toUpperCase()).has(letter)).length
+      
+      // count the number of times a word is guessed that was already guessed
+      if (priorGuesses.find((guess) => guess[0].toUpperCase() === latestGuess.toUpperCase()))
+        repeatedWordCount++
+      
       priorGuesses.push([latestGuess, correctLetters])
       resultString += `${latestGuess}, ${correctLetters}\n`
       highestLetterMatch = correctLetters > highestLetterMatch ? correctLetters : highestLetterMatch
@@ -85,13 +100,17 @@ export class AppComponent {
 
     if (latestGuess.toUpperCase() === secretWord.toUpperCase()) {
       resultString += '\nSecret word successfully guessed'
+      gameStats['success'] = true
     } else {
       resultString += '\nModel failed to guess the secret'
+      gameStats['success'] = false
     }
     
     gameStats['resultString'] = resultString
+    gameStats['responseTexts'] = responseTexts
     gameStats['attempts'] = attempts
     gameStats['highestLetterMatch'] = highestLetterMatch
+    gameStats['repeatedWordCount'] = repeatedWordCount
 
     return resultString
   }
@@ -105,8 +124,8 @@ export class AppComponent {
       gameStatsMap[word] = gameStats
     }
 
-    const jsonContent = JSON.stringify(gameStatsMap)
-    const blob = new Blob([jsonContent], { type: 'text/csv;charset=utf-8' })
+    const jsonContent = JSON.stringify(gameStatsMap, null, 2)
+    const blob = new Blob([jsonContent], { type: 'text/plain;charset=utf-8' })
     FileSaver.saveAs(blob, 'game_results.json')
   }
 
