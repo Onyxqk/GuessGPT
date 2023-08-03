@@ -127,7 +127,7 @@ export class AppComponent {
 
     const jsonContent = JSON.stringify(gameStatsMap, null, 2)
     const blob = new Blob([jsonContent], { type: 'text/plain;charset=utf-8' })
-    FileSaver.saveAs(blob, 'game_results.json')
+    FileSaver.saveAs(blob, `game_results-${this.selectedModel}.json`)
   }
 
 }
