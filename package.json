@@ -18,6 +18,7 @@
     "@angular/platform-browser": "^16.1.0",
     "@angular/platform-browser-dynamic": "^16.1.0",
     "@angular/router": "^16.1.0",
+    "exponential-backoff": "^3.1.1",
     "file-saver": "^2.0.5",
     "langchain": "^0.0.112",
     "node-polyfill-webpack-plugin": "^2.0.1",

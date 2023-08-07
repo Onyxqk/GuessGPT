@@ -1,3 +1,4 @@
+import { backOff } from "exponential-backoff";
 import { Component } from '@angular/core'
 import { OpenAI } from "langchain/llms/openai"
 import { LLMChain } from "langchain/chains"
@@ -47,19 +48,18 @@ export class AppComponent {
     }
     let promptString = ""
     for (const [guess, correctLetters] of priorGuesses) {
-      promptString += `You guessed ${guess}, which had ${correctLetters} letters in common with the secret.\n`
+      promptString += `You submitted the word ${guess}, and the other player told you that ${correctLetters} letters in ${guess} are also in the secret word.\n`
     }
     return promptString
   }
 
   async standardPromptRequest(llm: OpenAI, priorGuessString: string): Promise<string> {
-    const prompt = PromptTemplate.fromTemplate(`We are going to play the game of Jotto. I have decided on a secret five letter word, and your goal is to guess that word.
-    You will submit five letter words as guesses, and I will tell you for each guess how many letters in your guess are also in the secret word.
+    const prompt = PromptTemplate.fromTemplate(`You are playing a game repeatedly with another player. In this game, the other player has decided on a secret five letter word. Each turn you will guess a five letter word, and the other player will tell you how many letters in your guess are also in the secret word. Each of your guesses should be different than any word you have already guessed.
     
-    PRIOR GUESSES, CORRECT LETTERS:
+    PRIOR GUESSES
     {priorGuessString}
     
-    YOUR GUESS:  `)
+    What word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:  `)
     const chain = new LLMChain({ llm, prompt })
     const response = await (chain.run(priorGuessString))
     return response
@@ -74,6 +74,8 @@ export class AppComponent {
     const priorGuesses: [string, number][] = []
     const responseTexts: string[] = []
     let resultString = ''
+    
+    console.log(`Attempting game for secret: ${secretWord}`)
 
     while (attempts < MAX_ATTEMPTS && latestGuess.toUpperCase() !== secretWord.toUpperCase()) {
       attempts += 1
@@ -83,7 +85,7 @@ export class AppComponent {
       
       // reverse the response, use regex to find the last word, and flip that word back around
       let reversedResponse = modelResponse.split('').reverse().join('')
-      let lastWord = reversedResponse.match(/\w+/)
+      let lastWord = reversedResponse.match(/[a-zA-Z]+/)
       let guessWord = lastWord ? lastWord[0] : reversedResponse
       latestGuess = guessWord.split('').reverse().join('')
       
@@ -95,6 +97,7 @@ export class AppComponent {
       
       priorGuesses.push([latestGuess, correctLetters])
       resultString += `${latestGuess}, ${correctLetters}\n`
+      
       highestLetterMatch = correctLetters > highestLetterMatch ? correctLetters : highestLetterMatch
     }
 
@@ -119,14 +122,19 @@ export class AppComponent {
     const wordDictionary = this.wordDictionary
     const gameStatsMap: Record<string,any> = {}
     for (const word of wordDictionary) {
-      let gameStats: Record<string,any> = {}
-      const result = await this.standardPromptGame(word, this.selectedModel, gameStats)
-      gameStatsMap[word] = gameStats
+      try {
+        let gameStats: Record<string,any> = {}
+        const result = await backOff(() => this.standardPromptGame(word, this.selectedModel, gameStats))
+        gameStatsMap[word] = gameStats
+      } catch (err) {
+        console.error(`Game failed for secret: ${word}`)
+        console.error(err)
+      }
     }
 
     const jsonContent = JSON.stringify(gameStatsMap, null, 2)
     const blob = new Blob([jsonContent], { type: 'text/plain;charset=utf-8' })
-    FileSaver.saveAs(blob, 'game_results.json')
+    FileSaver.saveAs(blob, `game_results-${this.selectedModel}-standard_prompt_2-v2.json`)
   }
 
 }
