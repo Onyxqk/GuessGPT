@@ -1,0 +1,30 @@
+<head>
+  <title>GuessGPT</title>
+</head>
+
+<body>
+  <h1>GuessGPT</h1>
+
+  <p>Have GPT-3 guess a secret!</p>
+
+  <div>
+    <form (submit)="submitForm()">
+      <div>
+        <label for="secret">Secret: </label>
+        <input type="text" id="secret" [(ngModel)]="secret" name="secret" placeholder="Enter your secret" required>
+      </div> <br>
+      <div>
+        <label for="model">Model: </label>
+        <select id="model" [(ngModel)]="selectedModel" name="model">
+          <option *ngFor="let model of modelOptions" [value]="model">{{ model }}</option>
+        </select>
+      </div> <br>
+      <button type="submit">Submit</button>
+    </form>
+    <br>
+    <button (click)="runGameForAllWords()">Run Game for All Words and Export to JSON</button>
+
+    <div *ngIf="result">
+      <p>{{ result }}</p>
+    </div>
+  </div>

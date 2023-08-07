@@ -1,12 +1,28 @@
 # GuessGPT
 This is the front-end application for an AI-enabled word guessing game.
 
-# Use
-Create an anaconda environment using anaconda_environment.yaml
-https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
-Create a file called config.py at the base directory of this project with the following contents, pasting in your personal api key:
-OPENAI_API_KEY = "your_key_here"
+## Development server
 
-Run the app with 'flask run'
-You can run it with 'flask --debug run' to get additional development features such as live reloading
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
