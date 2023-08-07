@@ -1,3 +1,4 @@
+import { backOff } from "exponential-backoff";
 import { Component } from '@angular/core'
 import { OpenAI } from "langchain/llms/openai"
 import { LLMChain } from "langchain/chains"
@@ -74,6 +75,8 @@ export class AppComponent {
     const priorGuesses: [string, number][] = []
     const responseTexts: string[] = []
     let resultString = ''
+    
+    console.log(`Attempting game for secret: ${secretWord}`)
 
     while (attempts < MAX_ATTEMPTS && latestGuess.toUpperCase() !== secretWord.toUpperCase()) {
       attempts += 1
@@ -120,14 +123,19 @@ export class AppComponent {
     const wordDictionary = this.wordDictionary
     const gameStatsMap: Record<string,any> = {}
     for (const word of wordDictionary) {
-      let gameStats: Record<string,any> = {}
-      const result = await this.standardPromptGame(word, this.selectedModel, gameStats)
-      gameStatsMap[word] = gameStats
+      try {
+        let gameStats: Record<string,any> = {}
+        const result = await backOff(() => this.standardPromptGame(word, this.selectedModel, gameStats))
+        gameStatsMap[word] = gameStats
+      } catch (err) {
+        console.error(`Game failed for secret: ${word}`)
+        console.error(err)
+      }
     }
 
     const jsonContent = JSON.stringify(gameStatsMap, null, 2)
     const blob = new Blob([jsonContent], { type: 'text/plain;charset=utf-8' })
-    FileSaver.saveAs(blob, `game_results-${this.selectedModel}.json`)
+    FileSaver.saveAs(blob, `game_results-${this.selectedModel}-standard_prompt_2-v2.json`)
   }
 
 }
