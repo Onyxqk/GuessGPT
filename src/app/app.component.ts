@@ -48,19 +48,18 @@ export class AppComponent {
     }
     let promptString = ""
     for (const [guess, correctLetters] of priorGuesses) {
-      promptString += `You guessed ${guess}, which had ${correctLetters} letters in common with the secret.\n`
+      promptString += `You submitted the word ${guess}, and the other player told you that ${correctLetters} letters in ${guess} are also in the secret word.\n`
     }
     return promptString
   }
 
   async standardPromptRequest(llm: OpenAI, priorGuessString: string): Promise<string> {
-    const prompt = PromptTemplate.fromTemplate(`We are going to play the game of Jotto. I have decided on a secret five letter word, and your goal is to guess that word.
-    You will submit five letter words as guesses, and I will tell you for each guess how many letters in your guess are also in the secret word.
+    const prompt = PromptTemplate.fromTemplate(`You are playing a game repeatedly with another player. In this game, the other player has decided on a secret five letter word. Each turn you will guess a five letter word, and the other player will tell you how many letters in your guess are also in the secret word. Each of your guesses should be different than any word you have already guessed.
     
-    PRIOR GUESSES, CORRECT LETTERS:
+    PRIOR GUESSES
     {priorGuessString}
     
-    YOUR GUESS:  `)
+    What word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:  `)
     const chain = new LLMChain({ llm, prompt })
     const response = await (chain.run(priorGuessString))
     return response
