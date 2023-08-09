@@ -1,0 +1,1894 @@
+{
+  "about": {
+    "success": false,
+    "resultString": "STEAL, 2\nTHINK, 1\nCROSS, 1\nCROWD, 1\nBRAIN, 2\nREADY, 1\nSPRAY, 1\nTRADE, 2\nTRAIL, 2\nHAREM, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGUESS: STEAL",
+      "\n\nTHINK",
+      "\n\nCROSS",
+      "\n\nCROWD",
+      "\n\nBRAIN",
+      "\n\nREADY",
+      "\n\nSPRAY",
+      "\n\nTRADE",
+      "\n\nSUBMITTED WORD: TRAIL",
+      "\n\nHAREM"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "other": {
+    "success": false,
+    "resultString": "TOUGH, 3\nFLUTE, 2\nGROUT, 3\nBLUST, 1\nSHRUB, 2\nCRUSH, 2\nFLARG, 1\nTHROW, 4\nBRUSH, 2\nSLURB, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTOUGH",
+      "\n\nFLUTE",
+      "\n\nGROUT",
+      "\n\nBLUST",
+      "\n\nSHRUB",
+      "\n\nCRUSH",
+      "\n\nFLARG",
+      "\n\nTHROW",
+      "\n\nBRUSH",
+      "\n\nSLURB"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "which": {
+    "success": false,
+    "resultString": "MIGHTY, 2\nCHEAT, 2\nSLOTH, 1\nDRAFT, 0\nTHINK, 2\nSPLIT, 1\nSTRIP, 1\nFROST, 0\nCROWN, 2\nGRIPE, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMIGHTY",
+      "\n\nCHEAT",
+      "\n\nSLOTH",
+      "\n\nDRAFT",
+      "\n\nTHINK",
+      "\n\nSPLIT",
+      "\n\nSTRIP",
+      "\n\nFROST",
+      "\n\nCROWN",
+      "\n\nGRIPE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "their": {
+    "success": false,
+    "resultString": "FLOAT, 1\nLIGHT, 3\nTRIAL, 3\nWILT, 2\nGROVE, 2\nBLEND, 1\nSPIRE, 3\nHYPER, 3\nGRAFT, 2\nSLIPE, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nFLOAT",
+      "\n\nMy guess is LIGHT.",
+      "\n\nTRIAL",
+      "\n\nWILT",
+      "\n\nGROVE",
+      "\n\nBLEND",
+      "\n\nSPIRE",
+      "\n\nHYPER",
+      " GRAFT",
+      "\nSLIPE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "there": {
+    "success": false,
+    "resultString": "RULES, 2\nTHINKS, 2\nSLINK, 0\nBREAK, 2\nCLAIM, 0\nBLAZE, 1\nFRANK, 1\nTRACKS, 2\nSHAPE, 2\nRELAX, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nRULES",
+      "\n\nTHINKS",
+      "\n\nGUESS: SLINK",
+      "\n\nBREAK",
+      "\n\nCLAIM",
+      "\n\nBLAZE",
+      "\n\nFRANK",
+      "\nTRACKS",
+      "\n\nSHAPE",
+      "\n\nRELAX"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "first": {
+    "success": false,
+    "resultString": "PANEL, 0\nLEANS, 1\nSCALP, 1\nSPACE, 1\nSPLIT, 3\nSHAPE, 1\nBRUSH, 2\nGROOM, 1\nFROST, 4\nBLEND, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nPANEL",
+      "\n\nI think my next guess should be LEANS.",
+      "\n\nSCALP",
+      "\n\nSPACE",
+      "\n\nSPLIT",
+      "\n\nSHAPE",
+      "\n\nBRUSH",
+      "\n\nGROOM",
+      "\n\nFROST",
+      "\n\nBLEND"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "would": {
+    "success": false,
+    "resultString": "LEMON, 2\nBEANS, 0\nAPPLE, 1\nRANCH, 0\nGRAPE, 0\nFRESH, 0\nBLEND, 2\nHELP, 1\nTHINK, 0\nRAVEN, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nLEMON",
+      "\n\nBEANS",
+      "\n\nAPPLE",
+      "\n\nRANCH",
+      "\n\nGRAPE",
+      "\n\nFRESH",
+      "\n\nBLEND",
+      "\n\nHELP",
+      "\n\nTHINK",
+      "\n\nRAVEN"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "these": {
+    "success": false,
+    "resultString": "CRAFT, 1\nTHINK, 2\nSPEND, 2\nBLEND, 1\nPLANT, 1\nSHARP, 2\nFLOAT, 1\nTRACE, 2\nSTAKE, 3\nBASTE, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nCRAFT",
+      "\n\nTHINK",
+      "\n\nSPEND",
+      "\n\nBLEND",
+      "\n\nPLANT",
+      "\n\nSHARP",
+      "\n\nFLOAT",
+      "\n\nTRACE",
+      "\n\nSTAKE",
+      "\n\nBASTE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "click": {
+    "success": false,
+    "resultString": "FLUTE, 1\nTHINKS, 2\nBRIGHT, 1\nSPLIT, 2\nGRIPE, 1\nSLUMP, 1\nSHRUG, 0\nWRITE, 1\nBLEND, 1\nJUMPS, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nFLUTE",
+      "\n\nTHINKS",
+      "\n\nBRIGHT",
+      "\n\nSPLIT",
+      "\n\nGRIPE",
+      "\n\nSLUMP",
+      "\n\nSHRUG",
+      "\n\nWRITE",
+      "\n\nBLEND",
+      "\n\nJUMPS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "price": {
+    "success": false,
+    "resultString": "TIGER, 3\nCRIER, 4\nMOVER, 2\nRAVEN, 2\nSPLIT, 2\nBLAZE, 1\nBLEAR, 2\nFLAME, 1\nGRAPE, 3\nDRAIN, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTIGER",
+      "\n\nCRIER",
+      "\n\nMOVER",
+      "\n\nRAVEN",
+      "\n\nSPLIT",
+      "\n\nBLAZE",
+      "\n\nI would submit the word BLEAR.",
+      "\n\nFLAME",
+      "\n\nGRAPE",
+      "\n\nDRAIN"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "state": {
+    "success": false,
+    "resultString": "BURST, 2\nVENTS, 3\nSLANT, 3\nSPLIT, 2\nLASTS, 3\nSHAPE, 3\nGROVE, 1\nSLEPT, 3\nSWEEP, 2\nMELTS, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nBURST",
+      "\n\nVENTS",
+      "\n\nSLANT",
+      "\n\nSPLIT",
+      "\n\nLASTS",
+      "\n\nSHAPE",
+      "\n\nGROVE",
+      "\n\nSLEPT",
+      "\n\nSWEEP",
+      "\n\nMELTS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "email": {
+    "success": false,
+    "resultString": "CRAFT, 1\nRESET, 1\nATTEMPT, 3\nSTART, 1\nENDURE, 1\nSTRAND, 1\nRESTART, 2\nRANGER, 2\nDECODE, 1\nENRAGE, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nCRAFT",
+      "\n\nRESET",
+      "\n\nATTEMPT",
+      "\n\nSTART",
+      "\n\nENDURE",
+      "\n\nSTRAND",
+      "\n\nRESTART",
+      "\n\nRANGER",
+      "\n\nDECODE",
+      "\n\nENRAGE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "world": {
+    "success": false,
+    "resultString": "FLOAT, 2\nOLTAR, 3\nTROLL, 3\nSHORT, 2\nSLOTH, 2\nGROAT, 2\nGARTH, 1\nTHROAT, 2\nCOAST, 1\nBROACH, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nFLOAT",
+      "\n\nI think my next word should be OLTAR.",
+      "\n\nTROLL",
+      "\n\nSHORT",
+      "\n\nSLOTH",
+      "\n\nGROAT",
+      "\n\nGARTH",
+      "\n\nTHROAT",
+      "\n\nCOAST",
+      "\n\nBROACH"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "music": {
+    "success": false,
+    "resultString": "STRAW, 1\nTHINKS, 2\nSPARK, 1\nBLINK, 1\nGRASS, 1\nFALLS, 1\nCROSS, 2\nFLASH, 1\nSHARP, 1\nBRUSH, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nSTRAW",
+      "\n\nTHINKS",
+      "\n\nSPARK",
+      "\n\nBLINK",
+      "\n\nGRASS",
+      "\n\nFALLS",
+      "\n\nCROSS",
+      "\n\nFLASH",
+      "\n\nSHARP",
+      "\n\nBRUSH"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "after": {
+    "success": false,
+    "resultString": "HINTS, 1\nSTINT, 1\nTRYES, 3\nSLYTE, 2\nSPYRE, 2\nTHRYS, 2\nTRYST, 2\nFLYTE, 3\nSPRYT, 2\nCRYST, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nHINTS",
+      "\n\nGUESS: STINT",
+      "\n\nTRYES",
+      "\n\nSLYTE",
+      "\n\nSPYRE",
+      "\n\nTHRYS",
+      "\n\nTRYST",
+      "\n\nFLYTE",
+      "\n\nSPRYT",
+      "\n\nCRYST"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "video": {
+    "success": false,
+    "resultString": "MATCHA, 0\nMILK, 1\nLEMON, 2\nRAKES, 1\nSPOON, 1\nBROWN, 1\nFLAME, 1\nFAMILY, 1\nCHEFS, 1\nGROVE, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMATCHA",
+      "\n\nI think I will try MILK.",
+      "\n\nLEMON",
+      "\n\nRAKES",
+      "\n\nSPOON",
+      "\n\nBROWN",
+      "\n\nFLAME",
+      "\n\nFAMILY",
+      "\n\nCHEFS",
+      "\n\nGROVE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "where": {
+    "success": false,
+    "resultString": "STEEL, 1\nTHINKS, 1\nSHEEN, 2\nSHEELS, 2\nSHEELP, 2\nSHPEEL, 2\nSHEELP, 2\nSHPELL, 2\nSHPELE, 2\nSHEELS, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nSTEEL",
+      "\n\nTHINKS",
+      "\n\nSHEEN",
+      "\n\nSHEELS",
+      "\n\nSHEELP",
+      "\n\nSHPEEL",
+      "\n\nSHEELP",
+      "\n\nSHPELL",
+      "\nSHPELE",
+      "\n\nSHEELS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 2
+  },
+  "books": {
+    "success": false,
+    "resultString": "trial, 0\nSearching, 1\nExploring, 1\nDiscovering, 2\nUncovering, 1\nRevealing, 0\nUnearthing, 0\nInquire, 0\nUniting, 0\nUnraveling, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGUESS: trial",
+      "\n\nSearching",
+      "\nExploring",
+      "\n\nDiscovering",
+      "\n\nUncovering",
+      "\n\nRevealing",
+      "\n\nUnearthing",
+      "\nInquire",
+      "\nUniting",
+      "\n\nUnraveling"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "links": {
+    "success": false,
+    "resultString": "FLUTE, 1\nMOUSE, 1\nSPOUT, 1\nTHROW, 0\nGROVE, 0\nSHRUB, 1\nPOUTS, 1\nBLEND, 2\nBROOM, 0\nBLINK, 4\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGUESS: FLUTE",
+      "\n\nMOUSE",
+      "\n\nSPOUT",
+      "\n\nTHROW",
+      "\n\nGROVE",
+      "\n\nSHRUB",
+      "\n\nI think my next guess will be POUTS.",
+      "\n\nBLEND",
+      "\n\nBROOM",
+      "\n\nBLINK"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "years": {
+    "success": false,
+    "resultString": "FLAME, 2\nMILES, 2\nSPLIT, 1\nTRIPS, 2\nTHREE, 2\nCROSS, 2\nSHAPE, 3\nRAVES, 4\nFROZE, 2\nWRAPS, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nFLAME",
+      "\n\nI think I will guess MILES.",
+      "\n\nSPLIT",
+      "\n\nTRIPS",
+      "\n\nTHREE",
+      "\n\nCROSS",
+      "\n\nSHAPE",
+      "\n\nRAVES",
+      "\n\nFROZE",
+      "\n\nWRAPS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "order": {
+    "success": false,
+    "resultString": "FLOUR, 2\nUNION, 1\nMILER, 2\nBRINE, 2\nSPLIT, 0\nRISEN, 2\nHARES, 2\nCROSS, 2\nARISE, 2\nIMAGE, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nFLOUR",
+      "\n\nI think my next guess should be UNION.",
+      "\n\nMILER",
+      "\n\nBRINE",
+      "\n\nSPLIT",
+      "\n\nRISEN",
+      "\n\nHARES",
+      "\n\nCROSS",
+      "\n\nARISE",
+      "\n\nIMAGE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "items": {
+    "success": false,
+    "resultString": "LEMON, 2\nAPPLE, 1\nPEARL, 1\nGRAPE, 1\nSTRAW, 2\nKIWI, 1\nORANGE, 1\nMANGO, 1\nBLUE, 1\nBANANA, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nLEMON",
+      "\n\nAPPLE",
+      "\n\nPEARL",
+      "\n\nGRAPE",
+      "\n\nSTRAW",
+      "\n\nKIWI",
+      "\n\nORANGE",
+      "\n\nMANGO",
+      "\n\nBLUE",
+      "\n\nBANANA"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "group": {
+    "success": false,
+    "resultString": "HINTS, 0\nTIPSY, 1\nTRIPE, 2\nPLOTS, 2\nRAVES, 1\nSPLIT, 1\nSPLURT, 3\nSPRINT, 2\nSLURP, 3\nSWIRL, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nHINTS",
+      "\n\nI will submit the word TIPSY.",
+      "\n\nGUESSED: TRIPE",
+      "\n\nPLOTS",
+      "\n\nRAVES",
+      "\n\nSPLIT",
+      "\n\nSPLURT",
+      "\n\nSPRINT",
+      "\n\nSLURP",
+      "\n\nSWIRL"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "under": {
+    "success": false,
+    "resultString": "AROMA, 1\nSINUS, 2\nRANSI, 2\nCRANE, 3\nBRANS, 2\nPANTS, 1\nPLAIT, 0\nSCENT, 2\nBLEND, 3\nFARNS, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nAROMA",
+      "\n\nI am thinking of the word SINUS.",
+      "\n\nRANSI",
+      "\n\nCRANE",
+      "\n\nBRANS",
+      "\n\nPANTS",
+      "\n\nPLAIT",
+      "\n\nSCENT",
+      "\n\nBLEND",
+      "\nFARNS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "games": {
+    "success": false,
+    "resultString": "Trial, 1\nResearch, 3\nSuggestion, 3\nCrossover, 2\nDilute, 1\nReflect, 1\nPonder, 1\nAnalyze, 2\nCompound, 1\nExamine, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTrial",
+      "\n\nResearch",
+      "\n\nSuggestion",
+      "\n\nCrossover",
+      "\n\nDilute",
+      "\n\nReflect",
+      "\n\nPonder",
+      "\n\nAnalyze",
+      "\n\nCompound",
+      "\n\nExamine"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "could": {
+    "success": false,
+    "resultString": "QUERY, 1\nCONEQ, 2\nRENEW, 0\nBROWN, 1\nBLEND, 2\nIMAGE, 0\nFENCE, 1\nSLANT, 1\nMOULD, 4\nPLANT, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nQUERY",
+      "\n\nCONEQ",
+      "\n\nRENEW",
+      "\n\nBROWN",
+      "\n\nBLEND",
+      "\n\nIMAGE",
+      "\n\nFENCE",
+      "\n\nSLANT",
+      "\n\nMOULD",
+      "\n\nPLANT"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "great": {
+    "success": false,
+    "resultString": "LEMON, 1\nFLUNK, 0\nAROSE, 3\nSPOON, 0\nBROWS, 1\nCROWN, 1\nTHROW, 2\nAPPLE, 2\nBLEND, 1\nMILES, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nLEMON",
+      "\n\nI think I will guess FLUNK.",
+      "\n\nAROSE",
+      "\n\nSPOON",
+      "\n\nBROWS",
+      "\n\nCROWN",
+      "\n\nTHROW",
+      "\n\nAPPLE",
+      "\n\nBLEND",
+      "\n\nMILES"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "hotel": {
+    "success": false,
+    "resultString": "SMOKE, 2\nSMOKE, 2\nTHREE, 3\nFLOUR, 2\nBLEND, 2\nSHAPE, 2\nFLEAM, 2\nSLIME, 2\nMIXED, 1\nSPLIT, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\nSMOKE",
+      "\n\nI will guess FLAME, as it is a five letter word that uses two of the letters from my prior guess, SMOKE.",
+      "\n\nTHREE",
+      "\n\nFLOUR",
+      "\n\nBLEND",
+      "\n\nSHAPE",
+      "\n\nFLEAM",
+      "\n\nSLIME",
+      "\n\nMIXED",
+      "\n\nSPLIT"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "store": {
+    "success": false,
+    "resultString": "ELVES, 2\nALTER, 3\nFROST, 4\nSTOLE, 4\nFLOAT, 2\nFELTS, 3\nSPLIT, 2\nSHELF, 2\nHELPS, 2\nSPLASH, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\nELVES",
+      "\n\nALTER",
+      "\n\nFROST",
+      "\n\nSTOLE",
+      "\n\nFLOAT",
+      "\n\nFELTS",
+      "\n\nSPLIT",
+      "\n\nSHELF",
+      "\nHELPS",
+      "\n\nSPLASH"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "terms": {
+    "success": false,
+    "resultString": "SPOON, 1\nGROVE, 2\nKNIFE, 1\nMOVE, 2\nBLEND, 1\nFLOOR, 1\nROVEL, 2\nSHOVE, 2\nCROON, 1\nMUFFLE, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nSPOON",
+      "\n\nGROVE",
+      "\n\nKNIFE",
+      "\n\nMOVE",
+      "\n\nBLEND",
+      "\n\nFLOOR",
+      "\n\nROVEL",
+      "\n\nSHOVE",
+      "\n\nCROON",
+      "\n\nMUFFLE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "right": {
+    "success": false,
+    "resultString": "MOOSE, 0\nMEOWS, 0\nLEGOS, 1\nWORLD, 1\nBOWLS, 0\nROSES, 1\nFLEWS, 0\nFLOWS, 0\nLOWER, 1\nSPROW, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMOOSE",
+      "\n\nI am thinking of the word MEOWS.",
+      "\n\nLEGOS",
+      "\n\nWORLD",
+      "\n\nBOWLS",
+      "\nROSES",
+      "\n\nFLEWS",
+      "\n\nFLOWS",
+      "\n    \nLOWER",
+      "\n\nSPROW"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 0
+  },
+  "local": {
+    "success": false,
+    "resultString": "QUACK, 2\nTHINK, 0\nPINK, 0\nFANCY, 2\nLANKY, 2\nPLANK, 2\nFRANK, 1\nFLANK, 2\nCRANK, 2\nBLANK, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nQUACK",
+      "\n\nTHINK",
+      "\n\nPINK",
+      "\n\nFANCY",
+      "\nLANKY",
+      "\n\nPLANK",
+      "\n\nFRANK",
+      "\n\nFLANK",
+      "\n\nCRANK",
+      "\n\nBLANK"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "those": {
+    "success": false,
+    "resultString": "MOOSE, 3\nTEASE, 3\nROSES, 3\nSENSE, 2\nBROOM, 1\nSTORE, 4\nSHORE, 4\nFLOOR, 1\nTHREE, 3\nBLOOM, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMOOSE",
+      "\n\nTEASE",
+      "\n\nROSES",
+      "\n\nSENSE",
+      "\n\nBROOM",
+      "\n\nSTORE",
+      "\n\nSHORE",
+      "\n\nFLOOR",
+      "\n\nTHREE",
+      "\n\nBLOOM"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "using": {
+    "success": false,
+    "resultString": "SPOON, 2\nPONDS, 2\nCOPSE, 1\nSHAPE, 1\nCROPS, 1\nMATCH, 0\nBLEND, 1\nFLOOR, 0\nTHROW, 0\nFOLDS, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nSPOON",
+      "\n\nPONDS",
+      "\n\nCOPSE",
+      "\n\nSHAPE",
+      "\n\nCROPS",
+      "\n\nMATCH",
+      "\n\nBLEND",
+      "\n\nFLOOR",
+      "\n\nTHROW",
+      "\n\nFOLDS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "phone": {
+    "success": false,
+    "resultString": "FABLE, 1\nRESEARCH, 2\nHARES, 2\nBRASH, 1\nFARES, 1\nSHELF, 2\nFRESH, 2\nSTAKE, 1\nGRASP, 1\nSHAKE, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\nFABLE",
+      "\n\nRESEARCH",
+      "\n \nHARES",
+      "\n\nBRASH",
+      "\n\nFARES",
+      "\n\nSHELF",
+      "\n\nFRESH",
+      "\n\nSTAKE",
+      "\n\nGRASP",
+      "\n\nSHAKE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "forum": {
+    "success": false,
+    "resultString": "MATCHA, 1\nLEAFY, 1\nTRUFFLE, 3\nFLUTE, 2\nSPLAY, 0\nHARPS, 1\nGUSSY, 1\nCRAFT, 2\nMUFFL, 3\nBRASH, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMATCHA",
+      "\n\nI will submit the word LEAFY.",
+      "\n\nTRUFFLE",
+      "\n\nFLUTE",
+      "\n\nSPLAY",
+      "\n\nHARPS",
+      "\n\nGUSSY",
+      "\n\nCRAFT",
+      "\n\nMUFFL",
+      "\n\nBRASH"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "based": {
+    "success": false,
+    "resultString": "table, 3\nlamer, 2\nchair, 1\nframe, 2\namber, 3\nBream, 3\nDreams, 4\nScheme, 2\nMerely, 1\nGleam, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGUESS: table",
+      "\n\nGuess: lamer",
+      "\n\nchair",
+      "\n\nframe",
+      "\n\namber",
+      "\n\nBream",
+      "\n\nDreams",
+      "\n\nScheme",
+      "\n\nMerely",
+      "\n\nGleam"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "black": {
+    "success": false,
+    "resultString": "QUAIL, 2\nMOOSE, 0\nRAVEN, 1\nFADER, 1\nYAKER, 2\nKRAAL, 3\nBLAZE, 3\nBLEAK, 4\nCHEAT, 2\nSLAKE, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nQUAIL",
+      "\n\nMOOSE",
+      "\n\nRAVEN",
+      "\n\nFADER",
+      "\n\nYAKER",
+      "\n\nKRAAL",
+      "\n\nBLAZE",
+      "\n\nMy next guess would be BLEAK.",
+      "\n\nCHEAT",
+      "\n\nSLAKE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "check": {
+    "success": false,
+    "resultString": "HARES, 2\nAPRON, 0\nCARE, 2\nSHAPE, 2\nGRACE, 2\nFLAME, 1\nBLAME, 1\nCROSS, 1\nRAVEN, 1\nTRACE, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\nHARES",
+      "\n\nAPRON",
+      "\n\nCARE",
+      "\n\nSHAPE",
+      "\n\nGRACE",
+      "\n\nFLAME",
+      "\n\nBLAME",
+      "\n\nCROSS",
+      "\n\nRAVEN",
+      "\n\nTRACE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "index": {
+    "success": false,
+    "resultString": "MATCH, 0\nSIGHT, 1\nFIGHT, 1\nFLIGHT, 1\nFIGHTING, 2\nTHINK, 2\nSTRING, 2\nBRING, 2\nFALLS, 0\nTRYING, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMATCH",
+      "\n\nSIGHT",
+      "\n\nFIGHT",
+      "\n\nFLIGHT",
+      "\n\nFIGHTING",
+      "\n\nTHINK",
+      "\n\nSTRING",
+      "\n\nBRING",
+      "\n\nFALLS",
+      "\n\nTRYING"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "being": {
+    "success": false,
+    "resultString": "GROVE, 2\nWORVE, 1\nSPRUE, 1\nTHREE, 1\nMORVE, 1\nGROVEE, 2\nFLOVE, 1\nBLOVE, 2\nSOLVE, 1\nPRIVE, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGROVE",
+      "\n\nI will guess WORVE.",
+      "\n\nSPRUE",
+      "\n\nTHREE",
+      "\n\nMORVE",
+      "\n\nGROVEE",
+      "\n\nI think I will try FLOVE.",
+      "\n\nBLOVE",
+      "\n\nSOLVE",
+      "\n\nPRIVE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "women": {
+    "success": false,
+    "resultString": "TIGER, 1\nRAVEN, 2\nFARVE, 1\nSARVE, 1\nCRANE, 2\nGROVE, 2\nSHOVE, 2\nBLAZE, 1\nSNOVE, 3\nSPOVE, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTIGER",
+      "\n\nRAVEN",
+      "\n\nFARVE",
+      "\n\nSARVE",
+      "\n\nCRANE",
+      "\n\nGROVE",
+      "\n\nSHOVE",
+      "\n\nBLAZE",
+      "\n\nSNOVE",
+      "\n\nSPOVE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "today": {
+    "success": false,
+    "resultString": "table, 2\nFABLE, 1\nMABLE, 1\nGRAPE, 1\nRABLE, 1\nSCALE, 1\nSLABE, 1\nHABLE, 1\nBLAZE, 1\nCLABE, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGUESS: table",
+      "\n\nFABLE",
+      "\n\nMABLE",
+      "\n\nGRAPE",
+      "\n\nRABLE",
+      "\n\nSCALE",
+      "\n\nSLABE",
+      "\n\nHABLE",
+      "\nBLAZE",
+      "\n\nCLABE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "south": {
+    "success": false,
+    "resultString": "FLOAT, 2\nSPLIT, 2\nCROSS, 2\nHOSTS, 4\nTHREE, 2\nSHORT, 4\nTHOSE, 4\nMOTHS, 4\nWRITE, 1\nSPINES, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nFLOAT",
+      "\n\nI will guess SPLIT.",
+      "\n\nCROSS",
+      "\n\nHOSTS",
+      "\n\nTHREE",
+      "\n\nSHORT",
+      "\n\nTHOSE",
+      "\n\nMOTHS",
+      "\n\nWRITE",
+      "\n\nSPINES"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "pages": {
+    "success": false,
+    "resultString": "FABLE, 2\nRIFLE, 1\nDRAFT, 1\nKNIFE, 1\nPLATE, 3\nBRICK, 0\nSPLIT, 2\nSHARP, 3\nCROSS, 1\nHARPS, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGUESS: FABLE",
+      "\n\nRIFLE",
+      "\n\nDRAFT",
+      "\n\nKNIFE",
+      "\n\nPLATE",
+      "\n\nBRICK",
+      "\n\nSPLIT",
+      "\n\nSHARP",
+      "\n\nCROSS",
+      "\n\nHARPS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "found": {
+    "success": false,
+    "resultString": "BLUE, 1\nGREEN, 1\nWHITE, 0\nYELLOW, 1\nORANGE, 2\nRED, 1\nPURPLE, 1\nBLACK, 0\nBROWN, 2\nGREY, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nBLUE",
+      "\n\nI am thinking of the word GREEN.",
+      "\n\nWHITE",
+      "\n\nYELLOW",
+      "\n\nORANGE",
+      "\n\nRED",
+      "\n\nPURPLE",
+      "\n\nBLACK",
+      "\n\nBROWN",
+      "\n\nGREY"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "house": {
+    "success": false,
+    "resultString": "GODLY, 1\nSTRIPE, 2\nVIPER, 1\nSOLVE, 3\nLEAPS, 2\nPEALS, 2\nRESET, 2\nAROSE, 3\nRAPES, 2\nSPARE, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\nGODLY",
+      "\n\nSTRIPE",
+      "\n\nVIPER",
+      "\n\nSOLVE",
+      "\n\nLEAPS",
+      "\n\nPEALS",
+      "\n\nRESET",
+      "\n\nAROSE",
+      "\n\nRAPES",
+      "\n\nSPARE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "photo": {
+    "success": false,
+    "resultString": "STRAW, 1\nTHINKS, 2\nPANTS, 2\nBRUSH, 1\nSLUMP, 1\nBLUSH, 1\nCRASH, 1\nTHROW, 3\nFLASH, 1\nSHRINK, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nSTRAW",
+      "\n\nTHINKS",
+      "\n\nPANTS",
+      "\n\nBRUSH",
+      "\n    SLUMP",
+      "\n\nBLUSH",
+      "\n\nCRASH",
+      "\n\nTHROW",
+      "\n\nFLASH",
+      "\n\nSHRINK"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "power": {
+    "success": false,
+    "resultString": "HONEY, 2\nDEED, 1\nCROWN, 3\nFOWND, 2\nGROUND, 2\nBLOWN, 2\nSPLIT, 1\nTHROW, 3\nBOWL, 2\nFLOWN, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nHONEY",
+      "\n\nI'm thinking of words like CHEER, HEED, and DEED. I'm going to go with DEED.",
+      "\n\nCROWN",
+      "\n\nFOWND",
+      "\n\nGROUND",
+      "\n\nBLOWN",
+      "\n\nSPLIT",
+      "\n\nTHROW",
+      "\n\nBOWL",
+      "\n\nFLOWN"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "while": {
+    "success": false,
+    "resultString": "CRUEL, 2\nCLOWN, 2\nTHREE, 2\nSTERN, 1\nSHIRT, 2\nSLETH, 3\nHARES, 2\nGLOOM, 1\nMORAL, 1\nBLEND, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nCRUEL",
+      "\n\nI am thinking of a word with C, L, and R that I haven't used before, so I will guess CLOWN.",
+      "\n\nTHREE",
+      "\n\nSTERN",
+      "\n\nSHIRT",
+      "\n\nSLETH",
+      "\n\nHARES",
+      "\n\nGLOOM",
+      "\n\nMORAL",
+      "\n\nBLEND"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "three": {
+    "success": false,
+    "resultString": "MATCHA, 2\nCHEAT, 3\nBEACH, 2\nTHROW, 3\nFABLE, 1\nRATCH, 3\nHAREM, 3\nHYPER, 3\nGRAPH, 2\nLATCH, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMATCHA",
+      "\n\nI will submit the word CHEAT.",
+      "\n\nBEACH",
+      "\n\nTHROW",
+      "\n\nFABLE",
+      "\n\nRATCH",
+      "\n\nHAREM",
+      "\n\nHYPER",
+      "\n\nGRAPH",
+      "\n\nLATCH"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "total": {
+    "success": false,
+    "resultString": "LEXIS, 1\nCROSS, 1\nMILES, 1\nSTILE, 2\nGROVE, 1\nSILTS, 2\nHILTS, 2\nKILTS, 2\nTHRIL, 2\nFILTS, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nLEXIS",
+      "\n\nCROSS",
+      "\n\nMILES",
+      "\n\nSTILE",
+      "\n\nGROVE",
+      "\n\nSILTS",
+      "\n\nHILTS",
+      "\n\nKILTS",
+      "\n\nTHRIL",
+      "\n\nFILTS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "place": {
+    "success": false,
+    "resultString": "THINKS, 0\nSTILL, 1\nSKILL, 1\nFILLS, 1\nSPILL, 2\nBRING, 0\nSHINE, 1\nSLING, 1\nCHILL, 2\nMILLS, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTHINKS",
+      "\n\nI'm considering WORDS, ANTIC, and STILL. I think I'll guess STILL.",
+      "\n\nGUESSING: SKILL",
+      "\n\nFILLS",
+      "\n\nSPILL",
+      "\n\nBRING",
+      "\n\nSHINE",
+      "\n\nSLING",
+      "\n\nCHILL",
+      "\n\nMILLS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "think": {
+    "success": true,
+    "resultString": "TABLE, 1\nTHINK, 5\n\nSecret word successfully guessed",
+    "responseTexts": [
+      "\n\nGUESS: TABLE",
+      "\n\nTHINK"
+    ],
+    "attempts": 2,
+    "highestLetterMatch": 5,
+    "repeatedWordCount": 0
+  },
+  "north": {
+    "success": false,
+    "resultString": "LEMON, 2\nAPPLE, 0\nORANGE, 3\nGRAPE, 1\nKIWI, 0\nBLEND, 1\nMANGO, 2\nBERRY, 1\nRAISIN, 2\nPLUM, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nLEMON",
+      "\n\nAPPLE",
+      "\n\nORANGE",
+      "\n\nGRAPE",
+      "\n\nKIWI",
+      "\n\nBLEND",
+      "\n\nMANGO",
+      "\n \nBERRY",
+      "\n\nRAISIN",
+      "\n\nPLUM"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "posts": {
+    "success": false,
+    "resultString": "CRAFT, 1\nRATIO, 2\nBLEND, 0\nSPLIT, 3\nSHAPE, 2\nGRAPH, 1\nHYPER, 1\nLIGHT, 1\nNIGHT, 1\nGIVER, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nCRAFT",
+      "\n\nI am going to guess RATIO.",
+      "\n\nBLEND",
+      "\n\nSPLIT",
+      "\n\nSHAPE",
+      "\n\nGRAPH",
+      "\n\nHYPER",
+      "\n\nLIGHT",
+      "\n\nNIGHT",
+      "\n\nGIVER"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "media": {
+    "success": false,
+    "resultString": "RATIO, 2\nSLAP, 1\nSALP, 1\nSPAR, 1\nBLEND, 2\nMILDS, 3\nBRAND, 2\nGRAND, 2\nGLAND, 2\nFLAND, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nRATIO",
+      "\n\nSLAP",
+      "\n\nSALP",
+      "\n\nSPAR",
+      "\n\nBLEND",
+      "\n\nMILDS",
+      "\n\nBRAND",
+      "\nGRAND",
+      "\nGLAND",
+      "\n\nFLAND"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "since": {
+    "success": false,
+    "resultString": "MATCHA, 1\nBATCH, 1\nSCHEMA, 3\nSCAMB, 2\nSCRAMB, 2\nBRAMS, 1\nSHARP, 1\nBROAM, 0\nSLAMB, 1\nSPLAM, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMATCHA",
+      "\n\nI am thinking of the word BATCH.",
+      "\n\nSCHEMA",
+      "\n\nSCAMB",
+      "\n\nSCRAMB",
+      "\n\nBRAMS",
+      "\n\nSHARP",
+      "\n\nBROAM",
+      "\n\nSLAMB",
+      "\n\nSPLAM"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "guide": {
+    "success": false,
+    "resultString": "MATCHA, 0\nCHEAT, 1\nBEACH, 1\nSTYLE, 1\nFETCH, 1\nTRACE, 1\nSHAPE, 1\nREACH, 1\nFARCE, 1\nHAREM, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMATCHA",
+      "\n\nI think my next guess will be CHEAT.",
+      "\n\nBEACH",
+      "\n\nSTYLE",
+      "\nFETCH",
+      "\n\nTRACE",
+      "\n\nSHAPE",
+      "\n\nREACH",
+      "\n\nFARCE",
+      "\n\nHAREM"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 0
+  },
+  "board": {
+    "success": false,
+    "resultString": "MATCHA, 1\nTACHE, 1\nTEACH, 1\nTHECA, 1\nCHEAT, 1\nTHETA, 1\nSHEET, 0\nTHETCH, 0\nSHEATH, 1\nSHEETHA, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMATCHA",
+      "\n\nI will guess TACHE.",
+      "\n\nGUESS: TEACH",
+      "\n\nTHECA",
+      "\n\nCHEAT",
+      "\n\nTHETA",
+      "\n\nSHEET",
+      "\n\nTHETCH",
+      "\n\nSHEATH",
+      "\n\nSHEETHA"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 0
+  },
+  "white": {
+    "success": false,
+    "resultString": "MATCHA, 2\nFRACT, 1\nSACHA, 1\nRHINO, 2\nTHANE, 3\nFETCH, 3\nSEARCH, 2\nBARGE, 1\nFLARE, 1\nGRAPE, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMATCHA",
+      "\n\nI am thinking of the word FRACT.",
+      "\n\nSACHA",
+      "\n\nRHINO",
+      "\n\nTHANE",
+      "\n\nFETCH",
+      "\n\nSEARCH",
+      "\n\nBARGE",
+      "\n\nFLARE",
+      "\n\nGRAPE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "small": {
+    "success": false,
+    "resultString": "CLEAR, 2\nTHINK, 0\nCOMB, 1\nSLICE, 2\nBLEND, 1\nSHINE, 1\nFLOAT, 2\nWRITE, 0\nGROVE, 0\nBLOCK, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nCLEAR",
+      "\n\nTHINK",
+      "\n\nCOMB",
+      "\n\nSLICE",
+      "\n\nBLEND",
+      "\n\nSHINE",
+      "\n\nFLOAT",
+      "\n\nWRITE",
+      "\n\nGROVE",
+      "\n\nBLOCK"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "times": {
+    "success": false,
+    "resultString": "WORLD, 0\nTHINK, 2\nKNIT, 2\nSPOON, 1\nGROIN, 1\nCROSS, 1\nFLINT, 2\nLIGHT, 2\nBLEND, 1\nQUEUE, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nWORLD",
+      "\n\nTHINK",
+      "\n\nGUESS: KNIT",
+      "\n\nSPOON",
+      "\n\nGROIN",
+      "\n\nCROSS",
+      "\n\nFLINT",
+      "\n\nLIGHT",
+      "\n\nBLEND",
+      "\nQUEUE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "sites": {
+    "success": false,
+    "resultString": "FLAME, 1\nSTRIPE, 4\nCHEAT, 2\nMATCH, 1\nTREAT, 2\nHEART, 2\nBLEND, 1\nADMIT, 2\nDECENT, 2\nRESIST, 4\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nFLAME",
+      "\n\nSTRIPE",
+      "\n\nCHEAT",
+      "\n\nMATCH",
+      "\n\nTREAT",
+      "\n\nHEART",
+      "\n\nBLEND",
+      "\n\nADMIT",
+      "\n\nDECENT",
+      "\n\nRESIST"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "level": {
+    "success": false,
+    "resultString": "START, 0\nTHINK, 0\nSTINK, 0\nRUNTS, 0\nTRUST, 0\nDUNTS, 0\nFLINT, 1\nFINALS, 1\nSPLIT, 1\nBLINT, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nSTART",
+      "\n\nTHINK",
+      "\n\nGUESSING: STINK",
+      "\n\nRUNTS",
+      "\n\nTRUST",
+      "\n\nDUNTS",
+      "\n\nFLINT",
+      "\n\nFINALS",
+      "\n\nSPLIT",
+      "\n\nBLINT"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 0
+  },
+  "hours": {
+    "success": false,
+    "resultString": "shout, 4\nThink, 1\nCombine, 1\nMight, 1\nGrind, 1\nSlant, 1\nBrush, 4\nShout, 4\nClimb, 0\nTight, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGUESS: shout",
+      "\n\nThink",
+      "\n\nCombine",
+      "\n\nSuggested Word: Might",
+      "\n\nGrind",
+      "\n\nSlant",
+      "\n\nBrush",
+      "\n\nHint: \n\nAnswer: Shout",
+      "\n\nClimb",
+      "\n\nTight"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 1
+  },
+  "image": {
+    "success": false,
+    "resultString": "MATCHA, 2\nMARCH, 2\nQUART, 1\nTRACH, 1\nCHART, 1\nGRACH, 2\nFRACT, 1\nBRACH, 1\nCROCH, 0\nFLACH, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMATCHA",
+      "\n\nI am thinking of the word MARCH.",
+      "\n\nQUART",
+      "\n\nTRACH",
+      "\n\nCHART",
+      "\n\nGRACH",
+      "\n\nFRACT",
+      "\n\nBRACH",
+      "\n\nCROCH",
+      "\n\nFLACH"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "title": {
+    "success": false,
+    "resultString": "LEMON, 2\nAPPLE, 2\nORANGE, 1\nBALM, 1\nGRAPE, 1\nBANANA, 0\nPEACH, 1\nKIWI, 1\nMANGO, 0\nAVOCADO, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nLEMON",
+      "\n\nAPPLE",
+      "\n\nORANGE",
+      "\n\nBALM",
+      "\n\nGRAPE",
+      "\n\nBANANA",
+      "\n\nPEACH",
+      "\n\nKIWI",
+      "\n\nMANGO",
+      "\n\nAVOCADO"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "shall": {
+    "success": false,
+    "resultString": "TABLE, 2\nTHINK, 1\nPLATE, 2\nSHAPE, 3\nSPLIT, 2\nFLASH, 4\nCROSS, 1\nRAISE, 2\nGRAPH, 2\nCLASH, 4\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGUESS: TABLE",
+      "\n\nTHINK",
+      "\n\nPLATE",
+      "\n\nSHAPE",
+      "\n\nSPLIT",
+      "\nFLASH",
+      "\n\nCROSS",
+      "\n\nRAISE",
+      "\n\nGRAPH",
+      "\n\nCLASH"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "class": {
+    "success": false,
+    "resultString": "STEAL, 3\nCONE, 1\nMELT, 1\nFLOAT, 2\nBLEND, 1\nSHIFT, 1\nBALMS, 3\nFRAME, 1\nGROVE, 0\nSPLIT, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nSTEAL",
+      "\n\nCONE",
+      "\n\nMELT",
+      "\n\nFLOAT",
+      "\n\nBLEND",
+      "\n\nSHIFT",
+      "\n\nBALMS",
+      "\n\nFRAME",
+      "\n\nGROVE",
+      "\n\nSPLIT"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "still": {
+    "success": false,
+    "resultString": "TICKLE, 3\nguess, 1\nKLICK, 2\nLEAFS, 2\nCROSS, 1\nSPARK, 1\nFLICK, 2\nLICKS, 3\nPILES, 3\nSLICK, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTICKLE",
+      "\n\nI am thinking of CABLE as my next guess.",
+      "\n\nI am thinking of the word KLICK.",
+      "\n\nLEAFS",
+      "\n\nCROSS",
+      "\n\nSPARK",
+      "\n\nFLICK",
+      "\n\nLICKS",
+      "\n\nI suggest you try PILES.",
+      "\n\nSLICK"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "money": {
+    "success": false,
+    "resultString": "TAPER, 1\nDRAIN, 1\nSTRIP, 0\nPLANT, 1\nBRINE, 2\nCRANE, 2\nGROIN, 2\nSNAIL, 1\nFLOAT, 1\nSPLINTER, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTAPER",
+      "\n\nDRAIN",
+      "\n\nSTRIP",
+      "\n\nPLANT",
+      "\n\nBRINE",
+      "\n\nCRANE",
+      "\n\nGROIN",
+      "\n\nSNAIL",
+      "\nFLOAT",
+      "\n\nSPLINTER"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "every": {
+    "success": false,
+    "resultString": "RAVEN, 3\nNERVE, 3\nMOVER, 3\nSLOVE, 2\nVARES, 3\nFLARE, 2\nHARVY, 3\nBLAZE, 1\nGRAVE, 3\nFORGE, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nRAVEN",
+      "\n\nAfter considering my prior guesses, I will guess NERVE.",
+      "\n\nMOVER",
+      "\n\nSLOVE",
+      "\n\nVARES",
+      "\n\nFLARE",
+      "\n\nHARVY",
+      "\n\nBLAZE",
+      "\n\nGRAVE",
+      "\n\nFORGE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "visit": {
+    "success": false,
+    "resultString": "PANEL, 0\nALTER, 1\nSTARE, 2\nTREES, 2\nSLATE, 2\nSCALE, 1\nRATES, 2\nSPLIT, 3\nSHAPE, 1\nSPLASH, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nPANEL",
+      "\n\nI will guess ALTER",
+      "\n\nSTARE",
+      "\n\nTREES",
+      "\n\nSLATE",
+      "\n\nSCALE",
+      "\nRATES",
+      "\n\nSPLIT",
+      "\n\nSHAPE",
+      "\n\nSPLASH"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "tools": {
+    "success": false,
+    "resultString": "FLOAT, 3\nSTRAW, 2\nSPLIT, 3\nBLEND, 1\nGROVE, 1\nHORSE, 2\nROUTE, 2\nTHROW, 2\nFRETS, 2\nDISCUS, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nFLOAT",
+      "\n\nSTRAW",
+      "\n\nSPLIT",
+      "\n\nBLEND",
+      "\n\nGROVE",
+      "\n\nHORSE",
+      "\n\nI will submit the word ROUTE.",
+      "\n\nTHROW",
+      "\nFRETS",
+      "\n\nDISCUS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "reply": {
+    "success": false,
+    "resultString": "TIGER, 2\nRIGID, 1\nFIRED, 2\nCIDER, 2\nFIRED, 2\nSLICE, 2\nTHREE, 2\nBRIDE, 2\nSPLICE, 3\nRIDGE, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTIGER",
+      "\n\nRIGID",
+      "\n\nFIRED",
+      "\n\nCIDER",
+      "\n\nFIRED",
+      "\n\nSLICE",
+      "\n\nTHREE",
+      "\n\nBRIDE",
+      "\n\nSPLICE",
+      "\n\nRIDGE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "value": {
+    "success": false,
+    "resultString": "FLOAT, 2\nSTRAW, 1\nTALOW, 2\nBREAK, 2\nSPARK, 1\nTRACE, 2\nGRAPE, 2\nBLAZE, 3\nTHROW, 0\nSHEET, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nFLOAT",
+      "\n\nSTRAW",
+      "\n\nI think the next word I will submit is TALOW.",
+      "\n\nBREAK",
+      "\n\nSPARK",
+      "\n\nTRACE",
+      "\n\nGRAPE",
+      "\n\nBLAZE",
+      "\n\nTHROW",
+      "\n\nSHEET"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "press": {
+    "success": false,
+    "resultString": "trial, 1\nSearching, 3\nExamine, 1\nInvestigate, 2\nExplore, 3\nScrutinize, 3\nAnalyze, 1\nExamining, 1\nInvestigating, 2\nInspecting, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGUESS: trial",
+      "\n\nSearching",
+      "\n\nExamine",
+      "\n\nInvestigate",
+      "\n\nExplore",
+      "\n\nScrutinize",
+      "\n\nAnalyze",
+      "\n\nExamining",
+      "\n\nInvestigating",
+      "\n\nInspecting"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "learn": {
+    "success": false,
+    "resultString": "TABLE, 3\nCRATE, 3\nCHART, 2\nBRACE, 3\nBLEND, 3\nSHARP, 2\nFLAME, 3\nGRAPE, 3\nFRAME, 3\nCROSS, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTABLE",
+      "\n\nCRATE",
+      "\n\nCHART",
+      "\n\nBRACE",
+      "\n\nBLEND",
+      "\n\nSHARP",
+      "\n\nFLAME",
+      "\n\nGRAPE",
+      "\n\nFRAME",
+      "\n\nCROSS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "print": {
+    "success": false,
+    "resultString": "CRAFT, 2\nFRAIL, 2\nSLURP, 2\nBLEEP, 1\nTHROW, 2\nSCOLD, 0\nBLEND, 1\nFLARE, 1\nCROSS, 1\nFLARP, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nCRAFT",
+      "\n\nI think the best guess is FRAIL.",
+      "\n\nSLURP",
+      "\n\nBLEEP",
+      "\n\nTHROW",
+      "\n\nSCOLD",
+      "\n\nBLEND",
+      "\n\nFLARE",
+      "\n\nCROSS",
+      "\n    \nFLARP"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "stock": {
+    "success": false,
+    "resultString": "FABLE, 0\nTHINKS, 3\nWRITE, 1\nTRIKE, 2\nSPIKE, 2\nBROKE, 2\nBLEND, 0\nBRIGHT, 1\nGRINTH, 1\nSPRING, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nFABLE",
+      "\n\nTHINKS",
+      "\n\nWRITE",
+      "\n\nTRIKE",
+      "\n\nSPIKE",
+      "\n\nBROKE",
+      "\n\nBLEND",
+      "\n\nBRIGHT",
+      "\n\nGRINTH",
+      "\n\nSPRING"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "point": {
+    "success": false,
+    "resultString": "QUACKS, 0\nFLECK, 0\nNECKF, 1\nMEFCT, 1\nCROWN, 2\nSENDF, 1\nBLEND, 1\nWRENT, 2\nTENDR, 2\nGRENT, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\nQUACKS",
+      "\n\nFLECK",
+      "\n\nNECKF",
+      "\n\nMEFCT",
+      "\n\nCROWN",
+      "\n\nSENDF",
+      "\n\nBLEND",
+      "\n\nWRENT",
+      "\n\nTENDR",
+      "\n\nGRENT"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "sales": {
+    "success": false,
+    "resultString": "LIMIT, 1\nTHINKS, 1\nKILTS, 2\nSKILL, 2\nKITES, 2\nSLITS, 2\nSPIKES, 2\nTILES, 3\nMILTS, 2\nFELTS, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nLIMIT",
+      "\n\nTHINKS",
+      "\n\nKILTS",
+      "\n\nSKILL",
+      "\n\nKITES",
+      "\n\nSLITS",
+      "\n\nSPIKES",
+      "\nTILES",
+      "\n\nMILTS",
+      "\n\nFELTS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "large": {
+    "success": false,
+    "resultString": "LEMON, 2\nAPPLE, 3\nORANGE, 4\nGRAPE, 4\nBANAN, 1\nKIWI, 0\nMELON, 2\nSTRAW, 2\nBLUEBER, 3\nRASPBER, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nLEMON",
+      "\n\nAPPLE",
+      "\n\nORANGE",
+      "\n\nGRAPE",
+      "\n\nBANAN",
+      "\n\nKIWI",
+      "\n\nMELON",
+      "\n\nSTRAW",
+      "\n\nBLUEBER",
+      "\n\nRASPBER"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "table": {
+    "success": false,
+    "resultString": "QUAIL, 2\nHELPY, 2\nFLEAP, 3\nFLAME, 3\nSLAKE, 3\nBLAME, 4\nFRAME, 2\nGRAPE, 2\nREPLAY, 3\nRAFLE, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGUESS: QUAIL",
+      "\n\nHELPY",
+      "\n\nFLEAP",
+      "\n\nFLAME",
+      "\n\nSLAKE",
+      "\n\nBLAME",
+      "\n\nFRAME",
+      "\n\nGRAPE",
+      "\n\nREPLAY",
+      "\n\nRAFLE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "start": {
+    "success": false,
+    "resultString": "HONOR, 1\nTHINKS, 2\nSPARK, 3\nCRAFT, 3\nSCARF, 3\nKNOWS, 1\nFLASH, 2\nBLANKS, 2\nBRIGHT, 2\nSHARP, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nHONOR",
+      "\n\nTHINKS",
+      "\n\nSPARK",
+      "\n\nCRAFT",
+      "\n\nSCARF",
+      "\n\nKNOWS",
+      "\n\nFLASH",
+      "\n\nBLANKS",
+      "\n\nBRIGHT",
+      "\n\nSHARP"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "model": {
+    "success": false,
+    "resultString": "TRIAL, 1\nRESET, 1\nCREST, 1\nFLARE, 2\nFRAME, 2\nFLAME, 3\nBLAME, 3\nCLAIM, 2\nBRAKE, 1\nGRIME, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTRIAL",
+      "\n\nRESET",
+      "\n\nCREST",
+      "\n\nFLARE",
+      "\n\nFRAME",
+      "\n\nFLAME",
+      "\n\nBLAME",
+      "\n\nCLAIM",
+      "\n\nBRAKE",
+      "\nGRIME"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "human": {
+    "success": false,
+    "resultString": "HONOR, 2\nDECOR, 0\nTHREE, 1\nSPARE, 1\nLEAVE, 1\nREAVE, 1\nVAPOR, 1\nSLAVE, 1\nRAVES, 1\nDRAVE, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nHONOR",
+      "\n\nDECOR",
+      "\n\nTHREE",
+      "\n\nSPARE",
+      "\n\nLEAVE",
+      "\n\nREAVE",
+      "\n\nVAPOR",
+      "\n\nSLAVE",
+      "\n\nRAVES",
+      "\n\nDRAVE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "movie": {
+    "success": false,
+    "resultString": "MOOSE, 3\nBONUS, 1\nPONSE, 2\nSMOON, 2\nGMOON, 2\nMONSE, 3\nCLOON, 1\nFLOON, 1\nBLOON, 1\nROONS, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMOOSE",
+      "\n\nI think I will try BONUS.",
+      "\n\nPONSE",
+      "\n\nSMOON",
+      "\n\nGMOON",
+      "\n\nI think my next guess should be MONSE.",
+      "\n\nCLOON",
+      "\n\nFLOON",
+      "\n\nBLOON",
+      "\n\nROONS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "march": {
+    "success": false,
+    "resultString": "DRAFT, 2\nTHROW, 2\nFIGHT, 1\nFROST, 1\nBLEND, 0\nBROWN, 1\nSPLIT, 0\nSHINE, 1\nGLOVE, 0\nGROVE, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nDRAFT",
+      "\n\nTHROW",
+      "\n\nFIGHT",
+      "\n\nFROST",
+      "\n\nBLEND",
+      "\n\nBROWN",
+      "\n\nSPLIT",
+      "\n\nSHINE",
+      "\n\nGLOVE",
+      "\n\nGROVE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "yahoo": {
+    "success": false,
+    "resultString": "TROUT, 1\nTRAIN, 1\nFLOUR, 1\nFROWN, 1\nBLOOM, 1\nGROWN, 1\nCROWN, 1\nSNOOP, 1\nSPROUT, 1\nBROWN, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTROUT",
+      "\n\nI'm thinking of the word TRAIN",
+      "\n\nFLOUR",
+      "\n\nFROWN",
+      "\n\nBLOOM",
+      "\n\nGROWN",
+      "\n\nCROWN",
+      "\n\nSNOOP",
+      "\n\nSPROUT",
+      "\n\nBROWN"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 0
+  },
+  "going": {
+    "success": false,
+    "resultString": "TABLE, 0\nPLATE, 0\nTRAPE, 0\nCHAIR, 1\nSTAKE, 0\nFLOOR, 1\nLARGE, 1\nFROLL, 1\nGROVE, 2\nBROVE, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTABLE",
+      "\n\nPLATE",
+      "\n\nTRAPE",
+      "\n\nCHAIR",
+      "\n\nSTAKE",
+      "\n\nFLOOR",
+      "\n\nLARGE",
+      "\n\nFROLL",
+      "\n\nGROVE",
+      "\n\nBROVE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "study": {
+    "success": false,
+    "resultString": "BLEND, 1\nPILED, 1\nRIDGE, 1\nGRADE, 1\nSPLIT, 2\nTHREE, 1\nFREED, 1\nDELVE, 1\nReefed, 1\nFLARE, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nBLEND",
+      "\n\nPILED",
+      "\n\nRIDGE",
+      "\n\nGRADE",
+      "\n\nSPLIT",
+      "\n\nTHREE",
+      "\n\nFREED",
+      "\n\nDELVE",
+      "\nReefed",
+      "\n\nFLARE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "staff": {
+    "success": false,
+    "resultString": "CRAFT, 3\nRESET, 2\nCHART, 2\nFARCE, 2\nSTARE, 3\nBLAZE, 1\nMATCH, 2\nPLAIT, 2\nEQUAL, 1\nFARTE, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\nCRAFT",
+      "\n\nRESET",
+      "\n\nCHART",
+      "\n\nFARCE",
+      "\nSTARE",
+      "\n\nBLAZE",
+      "\n\nMATCH",
+      "\n\nPLAIT",
+      "\n\nEQUAL",
+      "\n\nFARTE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "again": {
+    "success": false,
+    "resultString": "TRYIT, 1\nguess, 1\nThink, 2\nStink, 2\nLink, 2\nBlink, 2\nKink, 2\nClink, 2\nPlink, 2\nGlint, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGUESS: TRYIT",
+      "\n\nI'm thinking of WORTH as my next guess.",
+      "\n\nThink",
+      "\n\nStink",
+      "\n\nLink",
+      "\n\nBlink",
+      "\n\nKink",
+      "\n\nClink",
+      "\n\nPlink",
+      "\n\nGlint"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "april": {
+    "success": false,
+    "resultString": "TASTE, 1\nTHINK, 1\nFLOAT, 2\nBLEND, 1\nSPLIT, 3\nSPARK, 3\nFROST, 1\nHARTS, 2\nMOTHS, 0\nSLOTH, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTASTE",
+      "\n\nTHINK",
+      "\n\nFLOAT",
+      "\n\nBLEND",
+      "\n\nSPLIT",
+      "\n\nSPARK",
+      "\n\nFROST",
+      "\n\nHARTS",
+      "\n\nMOTHS",
+      "\n\nSLOTH"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "never": {
+    "success": false,
+    "resultString": "MOOSE, 1\nRESET, 2\nTREES, 2\nSLATE, 1\nSPOKE, 1\nFLOAT, 0\nGROVE, 3\nFOLKS, 0\nSORTE, 2\nREUSE, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nMOOSE",
+      "\n\nRESET",
+      "\n\nTREES",
+      "\n\nSLATE",
+      "\n\nSPOKE",
+      "\n\nFLOAT",
+      "\n\nGROVE",
+      "\n\nFOLKS",
+      "\n\nSORTE",
+      "\n\nREUSE"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "users": {
+    "success": false,
+    "resultString": "GROVE, 2\nTHINKS, 1\nBONGS, 1\nLEANS, 2\nSLOES, 2\nPLAIT, 0\nKNEEL, 1\nDELVE, 1\nFLOAT, 0\nREELS, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nGROVE",
+      "\n\nTHINKS",
+      "\n\nBONGS",
+      "\n\nLEANS",
+      "\n\nSLOES",
+      "\n\nPLAIT",
+      "\n\nKNEEL",
+      "\n\nDELVE",
+      "\n\nFLOAT",
+      "\n\nREELS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "topic": {
+    "success": false,
+    "resultString": "CROSS, 2\nTHINKS, 2\nTRICKS, 3\nSLICK, 2\nSPLIT, 3\nFRILL, 1\nSPRINT, 3\nFLIRT, 2\nBRISK, 1\nBLISS, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nCROSS",
+      "\n\nTHINKS",
+      "\n\nTRICKS",
+      "\n\nSLICK",
+      "\n\nSPLIT",
+      "\n\nFRILL",
+      "\n\nSPRINT",
+      "\nFLIRT",
+      "\n\nBRISK",
+      "\n\nBLISS"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "below": {
+    "success": false,
+    "resultString": "RHINO, 1\nHONOR, 1\nSPOON, 1\nGLOOM, 2\nMOOL, 2\nBLOOM, 3\nFLOOR, 2\nLOOM, 2\nROOM, 1\nCOOL, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\nRHINO",
+      "\n\nI'm thinking of a word with the letters H, I, N, O. My guess is HONOR.",
+      "\n\nSPOON",
+      "\n\nSuggestion: GLOOM",
+      "\n\nMOOL.",
+      "\n\nBLOOM",
+      "\n\nFLOOR",
+      "\n\nLOOM",
+      "\n\nROOM",
+      "\n\nCOOL"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  }
+}

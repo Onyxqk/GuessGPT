@@ -1,0 +1,1888 @@
+{
+  "about": {
+    "success": false,
+    "resultString": "Hello, 1\nworld, 1\nlow, 1\ndale, 1\nhigh, 0\nhow, 1\nhowl, 1\ndower, 1\ndale, 1\ndwell, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses so I will guess \"Hello\".",
+      "\n\nI will submit the word world.",
+      "\n\nI will submit the word low.",
+      "\n\nI will submit the word dale.",
+      "\n\nI will submit the word high.",
+      "\n\nI will submit the word how.",
+      "\n\nhowl",
+      "\n\nI will submit the word dower.",
+      "\n\nI will submit the word dale.",
+      "\n\ndwell"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 1
+  },
+  "other": {
+    "success": false,
+    "resultString": "up, 0\ndown, 1\ninlet, 2\ntripe, 3\nenter, 3\nreset, 3\nreuse, 2\nreuse, 2\nsetup, 2\nreset, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\ninlet",
+      "\n\nYou might want to try a word like \"tripe.\"",
+      "\n\nI will submit the word enter.",
+      "\n\nI will submit the word \"reset\"",
+      "\n\nreuse",
+      "\n\nreuse",
+      "\n\nI will submit the word \"setup\".",
+      "\n\nI will submit the word \"reset\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 2
+  },
+  "which": {
+    "success": false,
+    "resultString": "up, 0\nshut, 1\nhut, 1\nship, 2\nshop, 1\nchip, 3\nchop, 2\nchut, 2\nchop, 2\nchute, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word shut.",
+      "\n\nThe word you should submit is hut.",
+      "\n\nI will submit the word ship.",
+      "\n\nshop",
+      "\n\nI will submit the word chip",
+      "\n\nchop",
+      "\n\nI will submit the word chut.",
+      "\n\nchop",
+      "\n\nchute"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "their": {
+    "success": false,
+    "resultString": "ZYGOT, 1\nTRIPE, 4\nLOUPE, 1\nPOULT, 1\nSPELT, 2\ntwice, 3\nSWINE, 2\nSTYLE, 2\nTWICE, 3\nSPELT, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nZYGOT",
+      "\n\nI will submit the word TRIPE.",
+      "\n\nLOUPE",
+      "\n\nPOULT",
+      "\n\nSPELT",
+      "\n\nHINTS\nYou have already guessed the following words: ZYGOT, TRIPE, LOUPE, POULT, SPELT.\n\nYou should use an intersection of the letters that are in each of your prior guesses.\n\nYou can use a word that you have already guessed as long as it is not the last word you guessed.\n\nYou should not guess the same word twice.",
+      "\n\nI will submit the word SWINE.",
+      "\n\nI will submit the word STYLE.",
+      "\n\nTWICE",
+      "\n\nSPELT"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 2
+  },
+  "there": {
+    "success": false,
+    "resultString": "guesses, 1\nguess, 1\nwords, 1\ngrid, 1\ngist, 1\nguess, 1\nagain, 0\nsage, 1\ngists, 1\nguess, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nThere are no prior guesses.",
+      "\n\nI will submit the word \"guess.\"",
+      "\n\nwords",
+      "\n\nI will submit the word \"grid\".",
+      "\n\nI will submit the word \"gist\".",
+      "\n\nI will submit the word guess.",
+      "\n\nI will submit the word \"guess\" again.",
+      "\n\nI will submit the word \"sage\".",
+      "\n\nI will submit the word \"gists\"",
+      "\n\nguess"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 2
+  },
+  "first": {
+    "success": false,
+    "resultString": "up, 0\nfive, 2\nif, 2\nfix, 2\nfin, 2\nSix, 2\nnix, 1\nfix, 2\nmix, 1\nix, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word five.",
+      "\n\nI will submit the word if.",
+      "\n\nI will submit the word fix.",
+      "\n\nI will submit the word \"fin.\"",
+      "\n\nSix",
+      "\n\nnix",
+      "\n\nI will submit the word fix.",
+      "\n\nNEXT GUESS\n\nmix",
+      "\n\nI will submit the word ix."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 1
+  },
+  "would": {
+    "success": false,
+    "resultString": "up, 1\nrate, 0\ntime, 0\nitem, 0\nstop, 1\nstep, 0\ntime, 0\nguessed, 2\nitem, 0\nstep, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word 'rate'.",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word item.",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word \"step\".",
+      "\n\nI will submit the word \"time\"",
+      "\n\nI will submit the word at, which has 1 letter in common with up, the first word guessed.",
+      "\n\nI will submit the word 'item'.",
+      "\n\nI will submit the word \"step.\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 3
+  },
+  "these": {
+    "success": false,
+    "resultString": "up, 0\ndown, 0\nport, 1\npart, 1\nstop, 2\npost, 2\nspot, 2\npots, 2\nsport, 2\nstir, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nI will submit the word port.",
+      "\n\nI will submit the word part.",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word post.",
+      "\n\nspot",
+      "\n\nI will submit the word \"pots\".",
+      "\n\nI will submit the word \"sport\"",
+      "\n\nI will submit the word \"stir\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "click": {
+    "success": false,
+    "resultString": "up, 0\ndown, 0\nleft, 1\nright, 1\nabove, 0\nstill, 2\ncross, 1\nwords, 0\nstill, 2\nleft, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nI will submit the word down.",
+      "\n\nleft",
+      "\n\nright",
+      "\n\nabove",
+      "\n\nI will submit the word still.",
+      "\n\nI will submit the word cross.",
+      "\n\nI will submit the word \"words\"",
+      "\n\nI will submit the word still",
+      "\n\nI will submit the word left."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 2
+  },
+  "price": {
+    "success": false,
+    "resultString": "up, 1\ndown, 0\nnow, 0\nleft, 1\nRight, 2\nRight, 2\nleft, 1\ntight, 1\nbright, 2\nlight, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word down.",
+      "\n\nI will submit the word now.",
+      "\n\nleft",
+      "\n\nRight",
+      "\n\nWord:\n\nRight",
+      "\n\nI will submit the word left.",
+      "\n\nI will submit the word tight.",
+      "\n\nbright",
+      "\n\nI will submit the word light."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 2
+  },
+  "state": {
+    "success": false,
+    "resultString": "guesses, 2\nrandom, 1\nsmart, 3\narts, 3\nstir, 2\nstar, 3\nstart, 3\ntarts, 3\ntrash, 3\nsecret, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI have no clue what the word could be so I will just guess random words until I get it.\n\nrandom",
+      "\n\nI will submit the word \"smart\".",
+      "\n\nI will submit the word arts.",
+      "\n\nI will submit the word \"stir\".",
+      "\n\nI will submit the word star.",
+      "\n\nI will submit the word start.",
+      "\n\ntarts",
+      "\n\nI will submit the word 'trash'.",
+      "\n\nI will submit the word secret."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "email": {
+    "success": false,
+    "resultString": "idea, 3\nguess, 1\ntime, 3\nteam, 3\ngame, 3\nmate, 3\nmeta, 3\nagate, 2\ngamed, 3\nmate, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no idea.",
+      "\n\nI will submit the word guess.",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word \"team\".",
+      "\n\nI will submit the word 'game'.",
+      "\n\nI will submit the word \"mate\".",
+      "\n\nI will submit the word \"meta\".",
+      "\n\nI will submit the word agate.",
+      "\n\nI will submit the word gamed.",
+      "\n\nI will submit the word \"mate\"."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "world": {
+    "success": false,
+    "resultString": "up, 0\npass, 0\nword, 4\ntime, 0\nords, 3\nords, 3\nwordy, 4\nwords, 4\ndowser, 4\ndowers, 4\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nI will submit the word pass.",
+      "\n\nYou submitted the word fail, and the other player told you that 0 letters in fail are also in the secret word.\n\nYou submitted the word stop, and the other player told you that 0 letters in stop are also in the secret word.\n\nYou submitted the word step, and the other player told you that 2 letters in step are also in the secret word.\n\nYou submitted the word wish, and the other player told you that 1 letter in wish is also in the secret word.\n\nYou submitted the word part, and the other player told you that 1 letter in part is also in the secret word.\n\nYou submitted the word work, and the other player told you that 1 letter in work is also in the secret word.\n\nYou submitted the word asks, and the other player told you that 1 letter in asks is also in the secret word.\n\nYou submitted the word task, and the other player told you that 2 letters in task are also in the secret word.\n\nYou submitted the word star, and the other player told you that 2 letters in star are also in the secret word.",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word \"ords\".",
+      "\n\nords",
+      "\n\nI will submit the word \"wordy\"",
+      "\n\nI will submit the word \"words\"",
+      "\n\nI will submit the word \"dowser\"",
+      "\n\ndowers"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 1
+  },
+  "music": {
+    "success": false,
+    "resultString": "guesses, 2\nstudy, 2\nstop, 1\nstir, 2\nstill, 2\ntrips, 2\nspill, 2\nspell, 1\nstill, 2\nspills, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"study\".",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word stir.",
+      "\n\nI will submit the word still",
+      "\n\nI will submit the word \"trips\".",
+      "\n\nI will submit the word \"spill\"",
+      "\n\nI will submit the word spell.",
+      "\n\nI will submit the word still",
+      "\n\nspills"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 1
+  },
+  "after": {
+    "success": false,
+    "resultString": "guesses, 1\nspite, 2\nsites, 2\nsties, 2\nsees, 1\nease, 2\ntees, 2\nbees, 1\nbees, 1\nseats, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"spite\".",
+      "\n\nI will submit the word sites.",
+      "\n\nI will submit the word \"sties.\"",
+      "\n\nI will submit the word 'sees'.",
+      "\n\nease",
+      "\n\nI will submit the word \"tees\".",
+      "\n\nbees",
+      "\n\nbees",
+      "\n\nI will submit the word seats."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "video": {
+    "success": false,
+    "resultString": "up, 0\ndown, 2\nnow, 1\nRight, 1\nleft, 1\nstop, 1\ntry, 0\nwet, 1\ntime, 2\nleft, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nInput:\n\nI give up.",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:  \n\ndown",
+      "\n\nI will submit the word now.",
+      "\n\nRight",
+      "\n\nleft",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word try.",
+      "\n\nI will submit the word wet.",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word left."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 1
+  },
+  "where": {
+    "success": false,
+    "resultString": "guesses, 1\ntripe, 2\ngrip, 1\ngrieves, 2\nStrive, 2\ngriefs, 2\ngrift, 1\nshrive, 3\nthrive, 3\nstrip, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI submit the word \"tripe\".",
+      "\n\nI will submit the word grip.",
+      "\n\nI will submit the word grieves.",
+      "\n\nStrive",
+      "\n\ngriefs",
+      "\n\nI will submit the word \"grift\"",
+      "\n\nshrive",
+      "\n\nthrive",
+      "\n\nI will submit the word \"strip.\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "books": {
+    "success": false,
+    "resultString": "guesses, 1\nteens, 1\nsees, 1\nsees, 1\nease, 1\nsees, 1\ntense, 1\nsees, 1\neases, 1\nsens, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"teens.\"",
+      "\n\nI will submit the word \"sees\".",
+      "\n\nI will submit the word \"sees\"",
+      "\n\nease",
+      "\n\nI will submit the word \"sees\"",
+      "\n\ntense",
+      "\n\nI will submit the word \"sees\"",
+      "\n\nI will submit the word \"eases\"",
+      "\n\nI will submit the word \"sens\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 3
+  },
+  "links": {
+    "success": false,
+    "resultString": "up, 0\nplayer, 1\nstyle, 2\ntry, 0\nrate, 0\ntime, 1\nat, 0\nspare, 1\nstale, 2\nstate, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\nWhat word will you submit to the other player?",
+      "\n\nI will submit the word \"style.\"",
+      "\n\nI will submit the word try.",
+      "\n\nI will submit the word rate.",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word at.",
+      "\n\nI will submit the word \"spare\"",
+      "\n\nI will submit the word stale.",
+      "\n\nI will submit the word state."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "years": {
+    "success": false,
+    "resultString": "up, 0\npure, 2\npeer, 2\npour, 1\npower, 2\nprune, 2\nparty, 3\npantry, 3\nport, 1\nPilot, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nI will submit the word pure.",
+      "\n\nI will submit the word peer.",
+      "\n\nI will submit the word pour.",
+      "\n\nI will submit the word \"power\".",
+      "\n\nI will submit the word prune.",
+      "\n\nI will submit the word party.",
+      "\n\nI will submit the word \"pantry\"",
+      "\n\nI will submit the word port.",
+      "\n\nPilot"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "order": {
+    "success": false,
+    "resultString": "guesses, 1\nloser, 3\nstory, 2\ntryst, 1\nturns, 1\ntries, 2\ncross, 2\nstrive, 2\nstress, 2\nstars, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"loser\".",
+      "\n\nI will submit the word \"story\".",
+      "\n\nI will submit the word tryst.",
+      "\n\nI will submit the word turns.",
+      "\n\nI will submit the word \"tries\"",
+      "\n\nI will submit the word cross.",
+      "\n\nI will submit the word \"strive\"",
+      "\n\nI will submit the word \"stress\".",
+      "\n\nI will submit the word stars."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "items": {
+    "success": false,
+    "resultString": "up, 0\ndate, 2\ndote, 2\ntime, 4\nmite, 4\nitem, 4\nemit, 4\nmile, 3\nlite, 3\nTrial, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nI will submit the word date.",
+      "\n\nI will submit the word dote.",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word \"mite.\"",
+      "\n\nI will submit the word item.",
+      "\n\nI will submit the word emit.",
+      "\n\nI will submit the word mile.",
+      "\n\nI will submit the word lite.",
+      "\n\nTrial"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "group": {
+    "success": false,
+    "resultString": "RIDGE, 2\nDRAFT, 1\nGRAFT, 2\nBRIDGE, 2\nCRAFT, 1\nCHAIR, 1\nA, 0\nFRACT, 1\nGIRTH, 2\nGRAPH, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nRIDGE",
+      "\n\nI will submit the word DRAFT.",
+      "\n\nI will submit the word GRAFT.",
+      "\n\nBRIDGE",
+      "\n\nI will submit the word CRAFT.",
+      "\n\nI will submit the word CHAIR.",
+      "\n\nRIDGE, DRAFT, GRAFT, BRIDGE, CRAFT, CHAIR\n\nThe word you should submit is A.",
+      "\n\nI will submit the word FRACT.",
+      "\n\nI will submit the word GIRTH.",
+      "\n\nGRAPH"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "under": {
+    "success": false,
+    "resultString": "up, 1\nalso, 0\nlow, 0\nhow, 0\nnow, 1\nwin, 1\ntry, 1\nword, 2\nstop, 0\nwiry, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word \"also\".",
+      "\n\nI will submit the word 'low'.",
+      "\n\nI will submit the word how.",
+      "\n\nI will submit the word now.",
+      "\n\nI will submit the word win.",
+      "\n\ntry",
+      "\n\nI will submit the word \"word.\"",
+      "\n\nI will submit the word \"stop\".",
+      "\n\nI will submit the word wiry."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "games": {
+    "success": false,
+    "resultString": "tiger, 2\nliger, 2\ntrain, 1\ngrain, 2\nrain, 1\nbrain, 1\nbraid, 1\nbrad, 1\nbrand, 1\nand, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI submit the word \"tiger\".",
+      "\n\nI will submit the word liger.",
+      "\n\nI will submit the word train.",
+      "\n\nI will submit the word grain.",
+      "\n\nI will submit the word rain.",
+      "\n\nI will submit the word brain.",
+      "\n\nI will submit the word braid.",
+      "\n\nI will submit the word brad.",
+      "\n\nI will submit the word brand.",
+      "\n\nI will submit the word and."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "could": {
+    "success": false,
+    "resultString": "up, 1\ncat, 1\nhat, 0\ntap, 0\nrat, 0\ndog, 2\ngot, 1\ngod, 2\ntog, 1\ntop, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 1 letters in up are also in the secret word.\n\nYou submitted the word dog, and the other player told you that 0 letters in dog are also in the secret word.\n\nWhat word will you submit to the other player?\n\ncat",
+      "\n\nI will submit the word hat.",
+      "\n\nI will submit the word tap.",
+      "\n\nI will submit the word rat.",
+      "\n\nI will submit the word dog.",
+      "\n\nI will submit the word got.",
+      "\n\nI will submit the word god.",
+      "\n\nI will submit the word tog.",
+      "\n\nI will submit the word top."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "great": {
+    "success": false,
+    "resultString": "up, 0\ntime, 2\nitem, 2\nmile, 1\nlime, 1\nmite, 2\nmite, 2\nmeat, 3\ngame, 3\nteam, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word item.",
+      "\n\nI will submit the word mile.",
+      "\n\nI will submit the word lime.",
+      "\n\nI will submit the word mite.",
+      "\n\nmite",
+      "\n\nI will submit the word \"meat.\"",
+      "\n\nI will submit the word \"game\"",
+      "\n\nI will submit the word team."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "hotel": {
+    "success": false,
+    "resultString": "enter, 2\nenter, 2\nstore, 3\nstone, 3\nstop, 2\nrent, 2\nreed, 1\ntree, 2\npeer, 1\nreset, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nenter",
+      "\n\nI will submit the word enter.",
+      "\n\nI will submit the word \"store\".",
+      "\n\nI will submit the word stone.",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word rent.",
+      "\n\nI will submit the word reed.",
+      "\n\nI will submit the word tree.",
+      "\n\nI will submit the word peer.",
+      "\n\nI will submit the word \"reset\"."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "store": {
+    "success": false,
+    "resultString": "party, 2\nsmart, 3\ntart, 2\ntray, 2\nstart, 3\narts, 3\nstars, 3\nstalks, 2\nstate, 3\nstalls, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n    \n    I will submit the word \"party\".",
+      "\n\nI will submit the word \"smart\".",
+      "\n\nI will submit the word \"tart\"",
+      "\n\nI will submit the word \"tray\".",
+      "\n\nI will submit the word \"start\".",
+      "\n\nI will submit the word arts.",
+      "\n\nI will submit the word \"stars\"",
+      "\n\nstalks",
+      "\n\nI will submit the word state.",
+      "\n\nstalls"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "terms": {
+    "success": false,
+    "resultString": "up, 0\ntry, 2\nply, 0\nspry, 2\ndry, 1\nstir, 3\nstill, 2\nskirt, 3\nstrip, 3\nstill, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ntry",
+      "\n\nI will submit the word ply.",
+      "\n\nI will submit the word \"spry\".",
+      "\n\nI will submit the word dry.",
+      "\n\nstir",
+      "\n\nI will submit the word still",
+      "\n\nI will submit the word skirt.",
+      "\n\nI will submit the word \"strip\"",
+      "\n\nI will submit the word still"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "right": {
+    "success": false,
+    "resultString": "guesses, 1\nguesses, 1\ntripe, 3\ngreet, 3\ntribe, 3\ngrate, 3\npear, 1\nleper, 1\nguesses, 1\ntape, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nguesses",
+      "\n\ntripe",
+      "\n\ngreet",
+      "\n\ntribe",
+      "\n\nI will submit the word \"grate\".",
+      "\n\nI will submit the word \"pear.\"",
+      "\n\nI will submit the word leper.",
+      "\n    \n    guesses",
+      "\n\nI will submit the word tape."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 2
+  },
+  "local": {
+    "success": false,
+    "resultString": "TESTING, 0\nSTING, 0\nGENTS, 0\nTIGER, 0\nRENTS, 0\nSTINGER, 0\nENTER, 0\nGREEN, 0\nTREE, 0\nREENTER, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTESTING",
+      "\n\nI will submit the word STING.",
+      "\n\nI will submit the word GENTS.",
+      "\n\nTIGER",
+      "\n\nI will submit the word RENTS.",
+      "\n\nI will submit the word STINGER.",
+      "\n\nI will submit the word ENTER.",
+      "\n\nI will submit the word GREEN.",
+      "\n\nTREE",
+      "\n\nI will submit the word REENTER."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 0,
+    "repeatedWordCount": 0
+  },
+  "those": {
+    "success": false,
+    "resultString": "RANTS, 2\nTRAIN, 1\nSWEAR, 2\nSTARE, 3\nRAISE, 2\nTEARS, 3\nSTAIR, 2\nRESET, 3\nREST, 3\nSET, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nRANTS",
+      "\n\nTRAIN",
+      "\n\nYou submitted the word RANTS, and the other player told you that 2 letters in RANTS are also in the secret word.\nYou submitted the word TRAIN, and the other player told you that 1 letters in TRAIN are also in the secret word.\n\nSWEAR",
+      "\n\nI will submit the word STARE.",
+      "\n\nRAISE",
+      "\n\nI will submit the word TEARS.",
+      "\n\nI will submit the word STAIR.",
+      "\n\nRESET",
+      "\n\nREST",
+      "\n\nSET"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "using": {
+    "success": false,
+    "resultString": "idea, 1\nideal, 1\naide, 1\ndeal, 0\nreal, 0\neager, 1\nloser, 1\neager, 1\nyear, 0\neager, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nWhat is your next guess?\n\nI have no idea.",
+      "\n\nI will submit the word \"ideal.\"",
+      "\n\nI will submit the word aide.",
+      "\n\nI will submit the word deal.",
+      "\n\nreal",
+      "\n\neager",
+      "\n\nloser",
+      "\n\neager",
+      "\n\nI will submit the word year.",
+      "\n\neager"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 2
+  },
+  "phone": {
+    "success": false,
+    "resultString": "TULIP, 1\nPILOT, 2\nLILT, 0\nLILAC, 0\nPILL, 1\nTAPIR, 1\nTRIP, 1\nLIAR, 0\nTULIP, 1\nTIARA, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nTULIP",
+      "\n\nI will submit the word PILOT.",
+      "\n\nI will submit the word LILT.",
+      "\n\nI will submit the word LILAC.",
+      "\n\nI will submit the word PILL.",
+      "\n\nI will submit the word TAPIR.",
+      "\n\nTRIP",
+      "\n\nI will submit the word LIAR.",
+      "\n\nTULIP",
+      "\n\nTIARA"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 1
+  },
+  "forum": {
+    "success": false,
+    "resultString": "apple, 0\nbanana, 0\ngrape, 1\npeach, 0\npear, 1\nstrawberry, 1\nplum, 2\nblueberry, 2\ncherry, 1\nblackberry, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nWhat is your word?\n\napple",
+      "\n\nbanana",
+      "\n\nI will submit the word grape.",
+      "\n\nI will submit the word peach.",
+      "\n\nI will submit the word pear.",
+      "\n\nstrawberry",
+      "\n\nplum",
+      "\n\nblueberry",
+      "\n\nI will submit the word cherry.",
+      "\n\nI will submit the word blackberry."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "based": {
+    "success": false,
+    "resultString": "guesses, 2\nguess, 2\ncross, 1\ncrown, 0\nagain, 1\nsane, 3\ngrin, 0\nsnag, 2\nsnag, 2\ngame, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"guess\".",
+      "\n\nI will submit the word cross.",
+      "\n\nI will submit the word crown.",
+      "\n\nI will submit the word \"guess\" again.",
+      "\n\nI will submit the word \"sane\".",
+      "\n\nI will submit the word 'grin'.",
+      "\n\nsnag",
+      "\n\nsnag",
+      "\n\nI will submit the word game."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "black": {
+    "success": false,
+    "resultString": "up, 0\nduke, 1\nlock, 3\nlocker, 3\nluke, 2\ntruck, 2\nluck, 3\nlucker, 3\nfuck, 2\nyou, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word duke.",
+      "\n\nlock",
+      "\n\nlocker",
+      "\n\nI'll submit the word luke.",
+      "\n\nI will submit the word truck.",
+      "\n\nI will submit the word luck.",
+      "\n\nI will submit the word lucker.",
+      "\n\nfuck",
+      "\n\nfuck you"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "check": {
+    "success": false,
+    "resultString": "party, 0\nsmart, 0\nart, 0\nmart, 0\ntray, 0\nrat, 0\ntar, 0\npity, 0\npity, 0\nsari, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n    \n    I will submit the word \"party\".",
+      "\n\nI will submit the word smart.",
+      "\n\nI will submit the word art.",
+      "\n\nI will submit the word mart.",
+      "\n\nI will submit the word tray.",
+      "\n\nI will submit the word rat.",
+      "\n\nI will submit the word tar.",
+      "\n\nI will submit the word \"pity\".",
+      "\n\nI will submit the word \"pity\".",
+      "\n\nI will submit the word \"sari\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 0,
+    "repeatedWordCount": 1
+  },
+  "index": {
+    "success": false,
+    "resultString": "up, 0\ndown, 2\ncross, 0\ndowser, 2\ncrown, 1\ntown, 1\nfound, 2\nround, 2\nsound, 2\nfrown, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\n cross",
+      "\n\nI will submit the word dowser.",
+      "\n\nI will submit the word crown.",
+      "\n\nThe word I will submit to the other player is town.",
+      "\n\nI will submit the word found.",
+      "\n\nI will submit the word round.",
+      "\n\nI will submit the word \"sound\".",
+      "\n\nfrown"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "being": {
+    "success": false,
+    "resultString": "up, 0\ndown, 1\nnow, 1\nright, 2\nleft, 1\nlope, 1\nstop, 0\nslow, 0\nflow, 0\nspool, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nI will submit the word now.",
+      "\n\nright",
+      "\n\nleft",
+      "\n\nI will submit the word lope",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word slow.",
+      "\n\nI will submit the word flow.",
+      "\n\nI will submit the word \"spool\"."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "women": {
+    "success": false,
+    "resultString": "up, 0\ndown, 3\nwere, 2\nupon, 2\npond, 2\ndune, 2\ndoubt, 1\nword, 2\npond, 2\nagain, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nI will submit the word were.",
+      "\n\nI will submit the word upon.",
+      "\n\nI will submit the word pond.",
+      "\n\nI will submit the word dune",
+      "\n\ndoubt",
+      "\n\nI will submit the word \"word\".",
+      "\n\nI will submit the word pond.",
+      "\n\nI will submit the word \"pond\" again."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "today": {
+    "success": false,
+    "resultString": "up, 0\ndown, 2\nside, 1\nhide, 1\nhideout, 3\nfound, 2\nsight, 1\nright, 1\nlight, 1\nplayer, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nside",
+      "\n\nI will submit the word hide.",
+      "\n\nI will submit the word hideout.",
+      "\n\nI will submit the word found.",
+      "\n\nI will submit the word \"sight\"",
+      "\n\nI will submit the word right.",
+      "\n\nI will submit the word light.",
+      "\n\nI will submit the word \"light\" to the other player."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "south": {
+    "success": false,
+    "resultString": "DRAWK, 0\nTRAWL, 1\nSTRAW, 2\nSWARM, 1\nWARTS, 2\nSTAR, 2\nSTART, 2\nCARTS, 2\nSMART, 2\nRATS, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nDRAWK",
+      "\n\nTRAWL",
+      "\n\nI will submit the word STRAW.",
+      "\n\nSWARM",
+      "\n\nI will submit the word WARTS",
+      "\n\nI will submit the word STAR.",
+      "\n\nI will submit the word START.",
+      "\n\nCARTS",
+      "\n\nI will submit the word SMART.",
+      "\n\nI will submit the word RATS."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "pages": {
+    "success": false,
+    "resultString": "up, 1\npits, 2\nstop, 2\nspit, 2\nspot, 2\npots, 2\ntops, 2\nopts, 2\npost, 2\nstir, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nI will submit the word pits.",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word spit.",
+      "\n\nI will submit the word spot.",
+      "\n\nI will submit the word \"pots\".",
+      "\n\nI will submit the word \"tops\".",
+      "\n\nI will submit the word opts.",
+      "\n\nI will submit the word post.",
+      "\n\nI will submit the word \"stir\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "found": {
+    "success": false,
+    "resultString": "skein, 1\nstain, 1\nswain, 1\nskewer, 0\nskier, 0\nskein, 1\nskate, 0\nswine, 1\nsnare, 1\nskein, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI submit the word \"skein\"",
+      "\n\nstain",
+      "\n\nI will submit the word swain.",
+      "\n\nskewer",
+      "\n\nI will submit the word skier.",
+      "\n\nskein",
+      "\n\nskate",
+      "\n\nI will submit the word swine.",
+      "\n\nsnare",
+      "\n\nskein"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 2
+  },
+  "house": {
+    "success": false,
+    "resultString": "up, 1\ntime, 1\ncome, 2\nteam, 1\ncare, 1\nmate, 1\nstop, 2\nwordmaps, 2\ncaret, 1\nstamp, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word come.",
+      "\n\nI will submit the word 'team'.",
+      "\n\nI will submit the word care.",
+      "\n\nI will submit the word mate.",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the wordmaps.",
+      "\n\nI will submit the word caret.",
+      "\n\nI will submit the word \"stamp\"."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "photo": {
+    "success": false,
+    "resultString": "up, 1\ndown, 1\nright, 2\nleft, 1\ninlet, 1\npassed, 1\nstop, 3\nstill, 1\ntap, 2\nattempt, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word down.",
+      "\n\nright",
+      "\n\nleft",
+      "\n\ninlet",
+      "\n\npassed",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word still.",
+      "\n\nI will submit the word tap.",
+      "\n\nI will submit the word \"attempt\"."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "power": {
+    "success": true,
+    "resultString": "up, 1\ndown, 2\nnow, 2\nwill, 1\npower, 5\n\nSecret word successfully guessed",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word down.",
+      "\n\nI will submit the word now.",
+      "\n\nI will submit the word will.",
+      "\n\nI will submit the word power."
+    ],
+    "attempts": 5,
+    "highestLetterMatch": 5,
+    "repeatedWordCount": 0
+  },
+  "while": {
+    "success": false,
+    "resultString": "up, 0\ndown, 1\npart, 0\nteam, 1\nmart, 0\ntare, 1\nstare, 1\ncare, 1\ncare, 1\nshare, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nI will submit the word part.",
+      "\n\nI will submit the word \"team\".",
+      "\n\nI will submit the word mart.",
+      "\n\nI will submit the word tare.",
+      "\n\nstare",
+      "\n\nI will submit the word care.",
+      "\n\nI will submit the word care.",
+      "\n\nshare"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 1
+  },
+  "three": {
+    "success": false,
+    "resultString": "doggo, 0\nyikes, 1\ncoke, 1\ngig, 0\nsock, 0\nbock, 0\ndock, 0\nrock, 1\ncake, 1\ndock, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\ndoggo",
+      "\n\nI will submit the word yikes.",
+      "\n\nI will submit the word coke.",
+      "\n\nI will submit the word gig.",
+      "\n\nI will submit the word \"sock\".",
+      "\n\nI will submit the word bock.",
+      "\n\nI will submit the word dock.",
+      "\n\nI will submit the word rock.",
+      "\n\nI will submit the word \"cake\".",
+      "\n\nI will submit the word dock."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 1
+  },
+  "total": {
+    "success": false,
+    "resultString": "party, 2\nsmart, 2\narts, 2\nstart, 2\nrat, 2\ntar, 2\nstop, 2\ntap, 2\nspat, 2\nstamp, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n    \n    I submit the word \"party\".",
+      "\n\nI will submit the word \"smart\".",
+      "\n\nI will submit the word arts.",
+      "\n\nI will submit the word start.",
+      "\n\nI will submit the word rat.",
+      "\n\nI will submit the word tar.",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word tap.",
+      "\n\nI will submit the word \"spat.\"",
+      "\n\nI will submit the word \"stamp.\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "place": {
+    "success": false,
+    "resultString": "up, 1\nDown, 0\nside, 1\nwordiped, 2\nwordiped, 2\nwordiped, 2\nwordiped, 2\nwordiped, 2\nwordiped, 2\nwordiped, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 1 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\nDown",
+      "\n\nI will submit the word \"side\".",
+      "\n\nI will submit the wordiped.",
+      "\n\nI will submit the wordiped.",
+      "\n\nI will submit the wordiped",
+      "\n\nI will submit the wordiped",
+      "\n\nI will submit the wordiped",
+      "\n\nI will submit the wordiped",
+      "\n\nI will submit the wordiped"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 6
+  },
+  "think": {
+    "success": true,
+    "resultString": "think, 5\n\nSecret word successfully guessed",
+    "responseTexts": [
+      "\n    \n    \nI will submit the word \"think\"."
+    ],
+    "attempts": 1,
+    "highestLetterMatch": 5,
+    "repeatedWordCount": 0
+  },
+  "north": {
+    "success": false,
+    "resultString": "pique, 0\nquilt, 1\nquiet, 1\nquill, 0\nword, 2\nwilt, 1\nquire, 1\nwire, 1\nquire, 1\nwader, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI submit the word \"pique\".",
+      "\n\nI will submit the word quilt.",
+      "\n\nI will submit the word quiet.",
+      "\n\nI will submit the word quill.",
+      "\n\nYou submitted the word quirt, and the other player told you that 2 letters in quirt are also in the secret word.",
+      "\n\nI will submit the word wilt.",
+      "\n\nI will submit the word quire.",
+      "\n\nI will submit the word \"wire\"",
+      "\n\nI will submit the word \"quire\".",
+      "\n\nwader"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 1
+  },
+  "posts": {
+    "success": false,
+    "resultString": "up, 1\npass, 2\ntops, 4\nstop, 4\nspot, 4\npots, 4\npost, 4\nport, 3\nsport, 4\npart, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\npass",
+      "\n\nI will submit the word \"tops\".",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word spot.",
+      "\n\nI will submit the word pots.",
+      "\n\nI will submit the word post.",
+      "\n\nI will submit the word port.",
+      "\n\nI will submit the word \"sport\"",
+      "\n\nI will submit the word part."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 0
+  },
+  "media": {
+    "success": false,
+    "resultString": "up, 0\nout, 0\nstop, 0\ntime, 3\ntape, 2\nterm, 2\nstep, 1\nstem, 2\ntest, 1\nreset, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nout",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word tape.",
+      "\n\nI will submit the word term.",
+      "\n\nI will submit the word step.",
+      "\n\nI think the secret word is stem.",
+      "\n\ntest",
+      "\n\nI will submit the word \"reset\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "since": {
+    "success": false,
+    "resultString": "guesses, 2\ncross, 2\nboss, 1\nroof, 0\nsass, 1\npassed, 2\nglass, 1\nmass, 1\nbrass, 1\nclasses, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word cross.",
+      "\n\nI will submit the word boss.",
+      "\n\nI will submit the word roof.",
+      "\n\nI will submit the word sass.",
+      "\n\npassed",
+      "\n\nI will submit the word glass.",
+      "\n\nI will submit the word mass.",
+      "\n\nI will submit the word brass.",
+      "\n\nI will submit the word classes."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "guide": {
+    "success": false,
+    "resultString": "guesses, 3\nplayer, 1\nlaser, 1\nstare, 1\nrates, 1\nreset, 1\nstone, 1\ntares, 1\ntrays, 0\nreset, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"guess\" to the other player.",
+      "\n\nI will submit the word \"laser\".",
+      "\n\nI will submit the word \"stare\".",
+      "\n\nI will submit the word \"rates\".",
+      "\n\nI will submit the word reset.",
+      "\n\nI will submit the word \"stone\".",
+      "\n\nI will submit the word \"tares\".",
+      "\n\nI will submit the word \"trays\".",
+      "\n\nreset"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "board": {
+    "success": false,
+    "resultString": "up, 0\ntime, 0\nitem, 0\nmile, 0\nlose, 1\nlate, 1\ndate, 2\ncake, 1\ndata, 2\ndale, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word \"item\".",
+      "\n\nI will submit the word mile.",
+      "\n\nI will submit the word lose.",
+      "\n\nI will submit the word late.",
+      "\n\nI will submit the word date.",
+      "\n\nI will submit the word cake.",
+      "\n\nI will submit the word data.",
+      "\n\nI will submit the word dale."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "white": {
+    "success": false,
+    "resultString": "guesses, 1\nstars, 1\nsmart, 1\narts, 1\nstare, 2\nswart, 2\ntares, 2\nstare, 2\nrats, 1\ntripe, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"stars\".",
+      "\n\nI will submit the word \"smart\".",
+      "\n\nI will submit the word arts.",
+      "\n\nI will submit the word \"stare\".",
+      "\n\nI will submit the word \"swart.\"",
+      "\n\ntares",
+      "\n\nstare",
+      "\n\nrats",
+      "\n\nI will submit the word \"tripe\"."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "small": {
+    "success": false,
+    "resultString": "up, 0\nneed, 0\nwant, 1\nstop, 1\npart, 1\ntape, 1\npain, 1\ntime, 1\nstain, 2\npaint, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word need.",
+      "\n\nI will submit the word want.",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word part",
+      "\n\nI will submit the word tape.",
+      "\n\nI will submit the word pain.",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word \"stain\"",
+      "\n\nI will submit the word \"paint\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "times": {
+    "success": false,
+    "resultString": "guesses, 2\nguesses, 2\nwords, 1\ncross, 1\nagain, 1\nboss, 1\nsager, 2\ngears, 2\nsager, 2\nager, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nYou already guessed guesses.",
+      "\n\nI will submit the word \"words\".",
+      "\n\nI will submit the word cross.",
+      "\n\nI will submit the word \"guess\" again.",
+      "\n\nI will submit the word \"boss.\"",
+      "\n\nYou submitted the word guesses, and the other player told you that 2 letters in guesses are also in the secret word.\nYou submitted the word guesses, and the other player told you that 2 letters in guesses are also in the secret word.\nYou submitted the word words, and the other player told you that 1 letters in words are also in the secret word.\nYou submitted the word cross, and the other player told you that 1 letters in cross are also in the secret word.\nYou submitted the word again, and the other player told you that 1 letters in again are also in the secret word.\nYou submitted the word boss, and the other player told you that 1 letters in boss are also in the secret word.\n\nsager",
+      "\n\nI will submit the word gears.",
+      "\n\nsager",
+      "\n\nI will submit the word ager."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 2
+  },
+  "sites": {
+    "success": false,
+    "resultString": "guesses, 2\nplayer, 1\nguesses, 2\nsecret, 3\nwords, 1\nscrew, 2\ncross, 1\nguessed, 2\nsecret, 3\nscored, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI guessed the word guesses, and the other player told me that 2 letters in guesses are also in the secret word.\n\nI will submit the word \"letters\" to the other player.",
+      "\n\nI will submit the word guesses.",
+      "\n\nI will submit the word secret.",
+      "\n\nI will submit the word words.",
+      "\n\nI will submit the word \"screw\"",
+      "\n\nI will submit the word cross.",
+      "\n\nI will submit the word guessed.",
+      "\n\nI will submit the word secret.",
+      "\n\nI will submit the word \"scored\"."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 2
+  },
+  "level": {
+    "success": false,
+    "resultString": "up, 0\nride, 1\nseat, 1\ntime, 1\nteam, 1\nmile, 2\nlate, 2\nyear, 1\nlair, 1\nmiter, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nI will submit the word ride.",
+      "\n\nI will submit the word seat.",
+      "\n\nI will submit the word 'time'.",
+      "\n\nI will submit the word team.",
+      "\n\nI will submit the word mile.",
+      "\n\nI will submit the word late.",
+      "\n\nI will submit the word year.",
+      "\n\nI will submit the word \"lair\".",
+      "\n\nI will submit the word \"miter.\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "hours": {
+    "success": false,
+    "resultString": "up, 1\ndown, 1\nleft, 0\nright, 2\ncriteria, 1\ntrier, 1\nenter, 1\nreign, 1\nRighting, 2\ncenter, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 1 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nleft",
+      "\n\nright",
+      "\n\nThere is no word that meets the criteria.",
+      "\n\nI will submit the word trier",
+      "\n\nI will submit the word enter.",
+      "\n\nI will submit the word reign.",
+      "\n    \n    \nRighting",
+      "\n\ncenter"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "image": {
+    "success": false,
+    "resultString": "Word, 0\nguess, 2\ncross, 0\nsays, 1\nplay, 1\nwords, 0\nguess, 2\ngears, 3\nare, 2\nyear, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nWord",
+      "\n\nI will submit the word guess.",
+      "\n\nI will submit the word \"cross\".",
+      "\n\nI will submit the word \"says\".",
+      "\n\nI will submit the word \"play\".",
+      "\n\nI will submit the word \"words\"",
+      "\n\nI will submit the word guess.",
+      "\n\nI will submit the word \"gears\".",
+      "\n\nI will submit the word \"are\".",
+      "\n\nI will submit the word year."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "title": {
+    "success": false,
+    "resultString": "tripe, 3\nspite, 3\nstripe, 3\nstrop, 1\nstop, 1\ntrap, 1\nroped, 1\nrope, 1\ntier, 3\ntire, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses, so I will guess \"tripe\".",
+      "\n\nI will submit the word spite.",
+      "\n\nI will submit the word \"stripe.\"",
+      "\n\nI will submit the word \"strop.\"",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word trap.",
+      "\n\nI will submit the word \"roped\".",
+      "\n\nI will submit the word rope",
+      "\n\nI will submit the word \"tier\".",
+      "\n\ntire"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "shall": {
+    "success": false,
+    "resultString": "guesses, 1\nguess, 1\ngases, 2\ngases, 2\nagain, 1\nsane, 2\nguess, 1\ngains, 2\nsane, 2\nagain, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"guess\".",
+      "\n\nI will submit the word \"gases.\"",
+      "\n\nI will submit the word \"gases\".",
+      "\n\nI will submit the word \"gases\" again.",
+      "\n\nI will submit the word 'sane.'",
+      "\n\nI will submit the word guess.",
+      "\n\nI will submit the word \"gains\"",
+      "\n\nI will submit the word \"sane.\"",
+      "\n\nI will submit the word \"sane\" again."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 4
+  },
+  "class": {
+    "success": false,
+    "resultString": "up, 0\ndown, 0\ndune, 0\nbeef, 0\nband, 1\nbarn, 1\nbrand, 1\nbrain, 1\nbrain, 1\nbrand, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nI will submit the word dune.",
+      "\n\nNone of the letters in my prior guesses intersect, so I will guess the word 'beef'.",
+      "\n\nI will submit the word band.",
+      "\n\nI will submit the word barn.",
+      "\n\nI will submit the word brand.",
+      "\n\nbrain",
+      "\n\nI will submit the word brain",
+      "\n\nI will submit the word brand."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 2
+  },
+  "still": {
+    "success": false,
+    "resultString": "guesses, 1\nguess, 1\ngases, 1\ngases, 1\ngases, 1\nwords, 1\ngases, 1\ngases, 1\ngases, 1\ngases, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI submit the word \"guess.\"",
+      "\n\nI will submit the word \"gases.\"",
+      "\n\nI will submit the word \"gases\".",
+      "\n\nI will submit the word \"gases\".",
+      "\n\nwords",
+      "\n\ngases",
+      "\n\nI will submit the word \"gases\"",
+      "\n\nI will submit the word \"gases\"",
+      "\n\nThe word I would submit is \"gases.\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 6
+  },
+  "money": {
+    "success": false,
+    "resultString": "guesses, 1\nstars, 0\nart, 0\nrate, 1\ntime, 2\nmeta, 2\nmate, 2\ntame, 2\nteam, 2\nitem, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"stars\".",
+      "\n\nI will submit the word art.",
+      "\n\nI will submit the word \"rate\".",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word \"meta\".",
+      "\n\nI will submit the word \"mate\".",
+      "\n    \n    \nI will submit the word \"tame.\"",
+      "\n\nI will submit the word \"team\"",
+      "\n\nI will submit the word item."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "every": {
+    "success": false,
+    "resultString": "up, 0\ndown, 0\nleft, 1\nright, 1\nupmost, 0\nbottom, 0\nstart, 1\nsmart, 1\nart, 1\nstop, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nleft",
+      "\n\nright",
+      "\n\nupmost",
+      "\n\nbottom",
+      "\n\nI will submit the word start.",
+      "\n\nI will submit the word smart.",
+      "\n\nI will submit the word art.",
+      "\n\nI will submit the word stop."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 0
+  },
+  "visit": {
+    "success": false,
+    "resultString": "guesses, 1\nmight, 2\ngist, 3\nrite, 2\ntime, 2\ngrime, 1\ntripe, 2\nmile, 1\ntype, 1\nwordlime, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"might\".",
+      "\n\nI will submit the word \"gist\".",
+      "\n\nI will submit the word rite.",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word \"grime.\"",
+      "\n\nI will submit the word \"tripe.\"",
+      "\n\nI will submit the word mile.",
+      "\n\nI will submit the word type.",
+      "\n\nI will submit the wordlime."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "tools": {
+    "success": false,
+    "resultString": "up, 0\nword, 1\ndowry, 1\ntry, 1\nrye, 0\ndry, 0\ndare, 0\ndate, 1\ndare, 0\ndairy, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nYou submitted the word cup, and the other player told you that 1 letter in cup is also in the secret word.\n\nWhat word will you submit to the other player?\n\nYou submitted the word tup, and the other player told you that 1 letter in tup is also in the secret word.",
+      "\n\nI will submit the word dowry.",
+      "\n\nI will submit the word try.",
+      "\n\nI will submit the word \"rye.\"",
+      "\n\nI will submit the word dry.",
+      "\n\nI will submit the word \"dare\"",
+      "\n\nI will submit the word date.",
+      "\n\nI will submit the word dare.",
+      "\n\ndairy"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 1
+  },
+  "reply": {
+    "success": false,
+    "resultString": "up, 1\nhear, 2\nhearth, 2\nhearth, 2\nheart, 2\nhatred, 2\nearth, 2\nhearth, 2\nhatred, 2\nhare, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word hear.",
+      "\n\nI will submit the word hearth.",
+      "\n\nI will submit the word hearth.",
+      "\n\nheart",
+      "\n\nhatred",
+      "\n\nI will submit the word \"earth\".",
+      "\n\nI will submit the word hearth.",
+      "\n\nhatred",
+      "\n\nI will submit the word hare."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 3
+  },
+  "value": {
+    "success": false,
+    "resultString": "words, 0\ncross, 0\nswoon, 0\ncrown, 0\nclown, 1\nbrown, 0\nbrawn, 1\nfrown, 0\ndrone, 1\ndrone, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses so I will just guess the word \"words\"",
+      "\n\nI will submit the word cross.",
+      "\n\nI will submit the word swoon.",
+      "\n\nI will submit the word crown.",
+      "\n\nI will submit the word clown.",
+      "\n\nI will submit the word brown.",
+      "\n\nbrawn",
+      "\n\nfrown",
+      "\n\ndrone",
+      "\n\ndrone"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 1
+  },
+  "press": {
+    "success": false,
+    "resultString": "up, 1\nshow, 1\nnow, 0\nhow, 0\nown, 0\nlow, 0\nslow, 1\nblow, 0\nflow, 0\nglow, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nI will submit the word show.",
+      "\n\nI will submit the word now.",
+      "\n\nI will submit the word how.",
+      "\n\nI will submit the word own.",
+      "\n\nI will submit the word low.",
+      "\n\nI will submit the word slow.",
+      "\n\nI will submit the word blow.",
+      "\n\nI will submit the word flow.",
+      "\n\nI will submit the word glow."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 0
+  },
+  "learn": {
+    "success": false,
+    "resultString": "guesses, 1\nguess, 1\nsmart, 2\nparty, 2\nstop, 0\ntars, 2\npays, 1\nrats, 2\nstar, 2\nspare, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"guess\".",
+      "\n\nI will submit the word \"smart\".",
+      "\n\nI will submit the word \"party\".",
+      "\n\nI will submit the word \"stop\".",
+      "\n\nI will submit the word \"tars.\"",
+      "\n\nI will submit the word \"pays\".",
+      "\n\nI will submit the word \"rats\".",
+      "\n\nI will submit the word star.",
+      "\n\nI will submit the word \"spare\"."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "print": {
+    "success": false,
+    "resultString": "up, 1\ntime, 2\nmite, 2\nstop, 2\nwest, 1\ntime, 2\nitem, 2\nstop, 2\nsite, 2\nmile, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word mite.",
+      "\n\nI will submit the word stop.",
+      "\n\nSubmitting the word west.",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word item.",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word site.",
+      "\n\nI will submit the word mile."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 2
+  },
+  "stock": {
+    "success": false,
+    "resultString": "apple, 0\npeach, 1\ngrape, 0\npear, 0\nbanana, 0\ncherry, 1\nmelon, 1\nwatermelon, 2\nmango, 1\nstrawberry, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\napple",
+      "\n\npeach",
+      "\n\nI will submit the word grape.",
+      "\n\nI will submit the word pear.",
+      "\n\nbanana",
+      "\n\nI am going to submit the word cherry.",
+      "\n\nI will submit the word melon.",
+      "\n\nwatermelon",
+      "\n\nI will submit the word mango.",
+      "\n\nstrawberry"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "point": {
+    "success": false,
+    "resultString": "up, 1\ntime, 2\nitem, 2\nmile, 1\nmile, 1\nsite, 2\nmeet, 1\nsemitic, 2\nteam, 1\ntame, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word \"item\".",
+      "\n\nI will submit the word mile.",
+      "\n\nI will submit the word mile.",
+      "\n\nI will submit the word site.",
+      "\n\nI will submit the word \"meet\".",
+      "\n\nI will submit the word \"semitic\"",
+      "\n\nI will submit the word \"team\"",
+      "\n\ntame"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 1
+  },
+  "sales": {
+    "success": false,
+    "resultString": "up, 0\nsubmit, 1\nbit, 0\nit, 0\nsit, 1\nhit, 0\ntime, 1\nstop, 1\ntop, 0\nport, 0\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\nsubmit",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\nYou submitted the word submit, and the other player told you that 1 letters in submit are also in the secret word.\n\nbit",
+      "\n\nI will submit the word it.",
+      "\n\nI will submit the word sit.",
+      "\n\nhit",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word \"stop\".",
+      "\n\nI will submit the word top.",
+      "\n\nI will submit the word port."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 0
+  },
+  "large": {
+    "success": false,
+    "resultString": "eager, 4\nquilt, 1\nquire, 2\nquilt, 1\nquery, 2\nquiet, 1\nquilt, 1\nquire, 2\nquire, 2\nquire, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\neager",
+      "\n\nI will submit the word quilt.",
+      "\n\nI will submit the word quire.",
+      "\n\nI will submit the word quilt.",
+      "\n\nI will submit the word query.",
+      "\n\nI will submit the word \"quiet\"",
+      "\n\nI will submit the word quilt.",
+      "\n\nquire",
+      "\n\nquire",
+      "\n\nquire"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 4,
+    "repeatedWordCount": 5
+  },
+  "table": {
+    "success": false,
+    "resultString": "up, 0\ndown, 0\nleft, 3\nright, 1\nlight, 2\nfight, 1\nfirst, 1\nright, 1\nstern, 2\nthing, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nleft",
+      "\n\nright",
+      "\n\nI will submit the word light.",
+      "\n\nI will submit the word fight.",
+      "\n\nI will submit the word first.",
+      "\n\nI will submit the word right.",
+      "\n\nI will submit the word stern",
+      "\n\nI will submit the word thing."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "start": {
+    "success": false,
+    "resultString": "up, 0\ndown, 0\nnope, 0\nopen, 0\npain, 1\npain, 1\nidea, 1\nreign, 1\nrain, 2\ntrain, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nI will submit the word nope.",
+      "\n\nI will submit the word open.",
+      "\n\nI will submit the word pain.",
+      "\n\nI will submit the word pain.",
+      "\n\nI have no idea.",
+      "\n\nI will submit the word reign.",
+      "\n\nI will submit the word rain.",
+      "\n\nI will submit the word train."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 1
+  },
+  "model": {
+    "success": false,
+    "resultString": "up, 0\ndown, 2\nnone, 2\nnope, 2\ndune, 2\nopen, 2\npeon, 2\npink, 0\npond, 2\nwon, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nnone",
+      "\n\nI will submit the word nope.",
+      "\n\nI will submit the word dune",
+      "\n\nopen",
+      "\n\nI will submit the word peon.",
+      "\n\nI will submit the word pink.",
+      "\n\nI will submit the word pond.",
+      "\n\nI will submit the word won."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "human": {
+    "success": false,
+    "resultString": "up, 1\ntrip, 0\npit, 0\nstop, 0\ntap, 1\ntrap, 1\npart, 1\narts, 1\nstarts, 1\nspart, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up.",
+      "\n\nI will submit the word trip.",
+      "\n\nI will submit the word \"pit.\"",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word tap.",
+      "\n\nI will submit the word trap.",
+      "\n\nI will submit the word part.",
+      "\n\nI will submit the word arts",
+      "\n\nstarts",
+      "\n\nThe word I would submit to the other player is \"spart.\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 1,
+    "repeatedWordCount": 0
+  },
+  "movie": {
+    "success": false,
+    "resultString": "guesses, 1\nloser, 2\ntripe, 2\nquilt, 1\nquire, 2\nquire, 2\nquire, 2\nspite, 2\nstrip, 1\nquilt, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI will submit the word \"loser\".",
+      "\n\ntripe",
+      "\n\nI will submit the word quilt.",
+      "\n\nI will submit the word quire.",
+      "\n\nquire",
+      "\n\nquire",
+      "\n\nI will submit the word \"spite\".",
+      "\n\nI will submit the word \"strip\".",
+      "\n\nI will submit the word quilt."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 3
+  },
+  "march": {
+    "success": false,
+    "resultString": "up, 0\ndown, 0\ndish, 1\ndishpan, 2\ndishcloth, 2\ndishpan, 2\ndishware, 3\nsodas, 1\ndishpan, 2\ndishwasher, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nI will submit the word dish.",
+      "\n\nI will submit the word dishpan.",
+      "\n\nI will submit the word dishcloth.",
+      "\n\ndishpan",
+      "\n\nI will submit the word dishware.",
+      "\n\nsodas",
+      "\n\nI will submit the word dishpan.",
+      "\n\ndishwasher"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 2
+  },
+  "yahoo": {
+    "success": false,
+    "resultString": "up, 0\ndown, 1\nfarm, 1\nart, 1\narms, 1\ndare, 1\ncare, 1\nrace, 1\nwordDear, 2\ndairy, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word down.",
+      "\n\nI will submit the word farm.",
+      "\n\nI will submit the word art.",
+      "\n\nI will submit the word arms.",
+      "\n\nI will submit the word dare.",
+      "\n\nI will submit the word care.",
+      "\n\nI will submit the word race.",
+      "\n\nI will submit the wordDear",
+      "\n\ndairy"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "going": {
+    "success": false,
+    "resultString": "trial, 1\ntrain, 2\ngrain, 3\nbrain, 2\ndrain, 2\nbraid, 1\nbrand, 1\nbrain, 2\nbrain, 2\ngrain, 3\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n    \n    I submit the word \"trial\".",
+      "\n\nI will submit the word train.",
+      "\n\nI will submit the word grain.",
+      "\n\nI will submit the word brain.",
+      "\n\nI will submit the word drain.",
+      "\n\nI will submit the word braid.",
+      "\n\nI will submit the word brand.",
+      "\n\nI will submit the word brain",
+      "\n\nI will submit the word brain.",
+      "\n\nI will submit the word grain."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 3
+  },
+  "study": {
+    "success": false,
+    "resultString": "up, 1\ndown, 1\nslow, 1\nstop, 2\npint, 1\ntour, 2\nturn, 2\ntrain, 1\nwords, 2\nstint, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 1 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nI will submit the word slow.",
+      "\n\nI will submit the word stop.",
+      "\n\nI will submit the word pint.",
+      "\n\nOur\n\nOur guess is tour.",
+      "\n\nI will submit the word turn.",
+      "\n\nI will submit the word train.",
+      "\n\nI will submit the word \"words\"",
+      "\n\nstint"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "staff": {
+    "success": false,
+    "resultString": "up, 0\ndown, 0\nrandom, 1\nright, 1\nleft, 2\nlight, 1\nfirst, 3\nfight, 2\nfire, 1\nfound, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 0 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\ndown",
+      "\n\nrandom",
+      "\n\nI will submit the word right.",
+      "\n\nleft",
+      "\n\nThe word I would submit is light.",
+      "\n\nI will submit the word first",
+      "\n\nI will submit the word fight",
+      "\n\nI will submit the word fire",
+      "\n\nI will submit the word \"found\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "again": {
+    "success": false,
+    "resultString": "guesses, 1\nsting, 3\nstill, 1\nthing, 3\ncross, 0\nstaff, 1\nstiff, 1\nglass, 2\nstamp, 1\ngaffe, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI submit the word \"sting.\"",
+      "\n\nI will submit the word still.",
+      "\n\nI will submit the word thing.",
+      "\n\nI guess the word cross.",
+      "\n\nI will submit the word staff.",
+      "\n\nstiff",
+      "\n\nI will submit the word glass.",
+      "\n\nstamp",
+      "\n\nI will submit the word gaffe."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 3,
+    "repeatedWordCount": 0
+  },
+  "april": {
+    "success": false,
+    "resultString": "up, 1\nset, 0\nOur, 1\nTire, 2\nturn, 1\nWord, 1\nstop, 1\nOur, 1\ntime, 1\nword, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nYou submitted the word up, and the other player told you that 1 letters in up are also in the secret word.\n\nWhat word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:\n\nset",
+      "\n\nOur\n\nOur",
+      "\n\nTire",
+      "\n\nI will submit the word turn.",
+      "\n\nWord",
+      "\n\nI will submit the word \"stop\".",
+      "\n\nOur\n",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word 'word'."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 2
+  },
+  "never": {
+    "success": false,
+    "resultString": "guesses, 1\nup, 0\nape, 1\ntree, 2\nreed, 2\ndeer, 2\nfeed, 1\nDrier, 2\nfree, 2\npeer, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no prior guesses.",
+      "\n\nI give up.",
+      "\n\nI will submit the word 'ape'.",
+      "\n\ntree",
+      "\n\nI will submit the word reed.",
+      "\n\nI will submit the word deer.",
+      "\n\nI will submit the word feed.",
+      "\n\nDrier",
+      "\n\nI will submit the word free.",
+      "\n\nI will submit the word peer."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "users": {
+    "success": false,
+    "resultString": "up, 1\ntime, 1\nitem, 1\nstop, 1\nmate, 1\nwordopts, 2\ndrop, 1\ntop, 0\ndoor, 1\nword, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI give up",
+      "\n\nI will submit the word time.",
+      "\n\nI will submit the word item.",
+      "\n\nI will submit the word stop.",
+      "\n\nmate",
+      "\n\nI will submit the wordopts.",
+      "\n\nI will submit the word drop.",
+      "\n\nI will submit the word top.",
+      "\n\nI will submit the word door.",
+      "\n\nI will submit the word \"word\""
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 0
+  },
+  "topic": {
+    "success": false,
+    "resultString": "guesses, 0\nwords, 1\nsmart, 1\narts, 1\nstars, 1\nparts, 2\ntarts, 1\nstarts, 1\nspare, 1\nstarts, 1\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\nI have no previous guesses.",
+      "\n\nI will submit the word \"words\"",
+      "\n\nI will submit the word smart.",
+      "\n\nI will submit the word arts.",
+      "\n\nI will submit the word stars.",
+      "\n\nI will submit the word parts.",
+      "\n\ntarts",
+      "\n\nstarts",
+      "\n\nI will submit the word \"spare\"",
+      "\n\nstarts"
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 1
+  },
+  "below": {
+    "success": false,
+    "resultString": "dogge, 2\ndingo, 1\ngod, 1\nding, 0\ndoor, 1\ndong, 1\ngong, 1\ngoon, 1\nboon, 2\nboon, 2\n\nModel failed to guess the secret",
+    "responseTexts": [
+      "\n\ndogge",
+      "\n\nI will submit the word dingo.",
+      "\n\nI will submit the word god.",
+      "\n\nI will submit the word ding.",
+      "\n\nI will submit the word door.",
+      "\n\nI will submit the word dong.",
+      "\n\nI will submit the word 'gong'.",
+      "\n\nI will submit the word goon.",
+      "\n\nI will submit the word boon.",
+      "\n\nI will submit the word boon."
+    ],
+    "attempts": 10,
+    "highestLetterMatch": 2,
+    "repeatedWordCount": 1
+  }
+}
