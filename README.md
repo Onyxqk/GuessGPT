@@ -10,6 +10,7 @@ OpenAI API keys can be accessed through this link upon creating an OpenAI accoun
 
 Upon satisfying these prerequisites, pull down the source code from this repository. Navigate to the app.component.ts file and go to line 21, `apiKey`. Replace the empty string value with your OpenAI API key and save the changes. Open a terminal and run `npm install` to install all required dependencies. Once all dependencies are successfully installed, run `ng serve` to launch the dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Generating Analytics
  To generate bulk data output for a given model when the app is running, first select a model from the model dropdown. Then select the 'Run Game for All Words and Export to JSON' button. Upon the completion of the run, a JSON file with the results for the given model will download.
 
 To run the Python analytics, first have Python 3 and pip installed and this repository pulled down. Then run `pip install pandas` in your terminal and chosen Python environment. Then run the Python script generate-statistics.py. You can then select from your file system one of the JSON results files generated earlier. The statistics will then be generated and displayed in your terminal.
