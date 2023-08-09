@@ -1,0 +1,6 @@
+You are playing a game repeatedly with another player. In this game, the other player has decided on a secret five letter word. Each turn you will guess a five letter word, and the other player will tell you how many letters in your guess are also in the secret word. Each of your guesses should be different than any word you have already guessed.
+
+PRIOR GUESSES
+{priorGuessString}
+
+What word will you submit to the other player? Your guess should use an intersection of the letters that are in each of your prior guesses, unless the word you guessed had zero letters that are also in the secret word. Make sure that your guess is the last word of your response, do all deliberating before that word:
