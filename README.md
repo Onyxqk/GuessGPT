@@ -15,6 +15,8 @@ Upon satisfying these prerequisites, pull down the source code from this reposit
 
 To run the Python analytics, first have Python 3 and pip installed and this repository pulled down. Then run `pip install pandas` in your terminal and chosen Python environment. Then run the Python script generate-statistics.py. You can then select from your file system one of the JSON results files generated earlier. The statistics will then be generated and displayed in your terminal.
 
+To generate our boxplots, follow the instructions above but also run `pip install seaborn` and run the script generate-box-plots.py instead. You will then be prompted to select any number of json data files. The plots will then be generated and displayed in a new window.
+
 ## Angular
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
